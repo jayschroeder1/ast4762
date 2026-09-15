@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[9]:
+# In[2]:
 
 
 #Jay Schroeder
@@ -57,13 +57,19 @@ def square(x):
     return x * x
     #exits the function, 
 
-print( square(5) )
-print(square(np.array( [20, 4] )))
-print(square(np.array( [[20, 4], 
-                       [5, 10]] )))
+#print( square(5) )
+#print(square(np.array( [20, 4] )))
+#print(square(np.array( [[20, 4], 
+                       #[5, 10]] )))
 
 
-# In[6]:
+# In[ ]:
+
+
+
+
+
+# In[ ]:
 
 
 
