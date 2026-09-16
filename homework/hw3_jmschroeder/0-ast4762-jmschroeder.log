@@ -441,9 +441,9 @@ Then I checked Git to ensure it was there and it was.
 Jupyter crashed, reloading Jupyter. From here I will make a new .py file named hw3_jmschroeder 
 
 
-*****OUT: Tue Sep 15 20:39:11 EDT 2026
+*****OUT: Tue Sep 15 18:39:11 EDT 2026
 
-*****IN: Tue Sep 15 11:28:19 EDT 2026
+*****IN: Tue Sep 15 19:56:09 EDT 2026
 
 Opened TextEdit, stated this log, saved as:
 /home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
@@ -455,6 +455,29 @@ Problem 2 is completed, moving on.
 3) File named hw3_jmschroeder was created successfully. It is currently completed up to parts a through d. I created a function named 'squareplot' that is designed to call function 'square' and plot the data on a graph. This graph is then optionally saved as a PDF. 
 
 Edited function 'squareplot'; there was a bug regarding an if statement, the updates to which exist in the docstring
+
+Downloaded hw3_jmschroeder_support_functions as a .py file. I have done this a few times already but for the sake of logging my process I did it thusly: I saved hw3_jmschroeder_support_functions as an 'executable script' (.py file). This then downloaded to my computer. From here I was able to manually move it from my Downloads folder in Juptyer Notebooks to my Classwork and Notes folder, where it can be accessed by hw3_jmschroeder
+
+Added some updates to hw3_jmschroeder_support_functions to squash some bugs. Downloaded copied of both this file and hw3_jmschroeder and exported them to GitHub.
+
+4) This rubric will be added as a separate .txt file named hw3_jmschroeder_problem3rubric.txt
+
+5) Still having issues with Stokes, but per Professor Harrington's instructions I have outlined the issue and how we attempted to resolve them above. More digging will be done at a later date. 
+
+e) I will commit and push everything to GitHub by first copying all of the content in my Windows-based hw3_jmschroeder folder into my linux based hw3_jmschroeder folder with the following command:
+
+>>> cp -r "/mnt/d/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/hw3_jmschroeder" ~/ast4762/homework/
+
+Once I do that I will enter my ast4762/homework/hw3_jmschroeder and run an ls command to determine whether or not everything is there. With it all there I will then run the following:
+
+>>> git add . 
+>>> git commit -m "updated log, updated hw3_jmschroeder_support_functions, updated hw3_jmschroeder, added hw3_jmschroeder_problem3rubric.txt"
+>>> git push -u origin main
+
+Once that is done, I will tar.gz the file and submit it into Webcourses.
+
+*****OUT: Tue Sep 15 20:47:31 EDT 2026
+
 
 
 

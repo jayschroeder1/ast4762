@@ -71,12 +71,15 @@ def square(x):
                        #[5, 10]] )))
 
 
-# In[4]:
+# In[6]:
 
 
 #3
 print( 'Problem 3 parts a through d' )
 #prints the problem number
+
+import numpy as np
+import matplotlib.pyplot as plt
 
 def squareplot(low, high, npoints, saveplot=False):
 #defining the function 'square' 
@@ -123,6 +126,12 @@ def squareplot(low, high, npoints, saveplot=False):
     >>> if saveplot is False:
     >>> if saveplot is not False:
 
+    Added imports:
+    >>> import numpy as np
+    >>> import matplotlib.pyplot as plt
+
+    Fixed a bug where 'plt.savefig' was misspelled as 'plt.savfig'
+
     """
 
     x = np.linspace( low, high, npoints )
@@ -137,7 +146,7 @@ def squareplot(low, high, npoints, saveplot=False):
     #plots and labels the graph of the function accordingly
 
     if saveplot is not False: 
-        plt.savfig(saveplot, format="pdf")
+        plt.savefig(saveplot, format="pdf")
         #presents a condition regarding when to save the graph as a PDF
 
     plt.show()
