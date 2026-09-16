@@ -132,6 +132,8 @@ def squareplot(low, high, npoints, saveplot=False):
 
     Fixed a bug where 'plt.savefig' was misspelled as 'plt.savfig'
 
+    Updated graph name from "Square Function Plot" to "Square Function"
+
     """
 
     x = np.linspace( low, high, npoints )
@@ -142,7 +144,7 @@ def squareplot(low, high, npoints, saveplot=False):
     plt.plot( x, y )
     plt.xlabel( "Input" )
     plt.ylabel( "Output" )
-    plt.title( "Square Function Plot" )
+    plt.title( "Square Function" )
     #plots and labels the graph of the function accordingly
 
     if saveplot is not False: 
