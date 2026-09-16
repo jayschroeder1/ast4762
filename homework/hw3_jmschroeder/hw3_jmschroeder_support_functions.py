@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[3]:
 
 
 #Jay Schroeder
@@ -18,7 +18,7 @@
 import numpy as np
 
 #2
-print('Problem 2')
+print('Problem 2 parts a through g')
 #prints the problem number
 
 def square(x):
@@ -53,6 +53,14 @@ def square(x):
            [25, 81] )
     #examples of what can be put into the function, and what can be expected out
 
+    Updates
+    -------
+    Commented out test statements at the bottom of cell.
+
+    Rewrote print statement containing problem number and part
+    >>> print('Problem 2')
+    >>> print('Problem 2 parts a through g')
+
     """
     return x * x
     #exits the function, 
@@ -63,9 +71,76 @@ def square(x):
                        #[5, 10]] )))
 
 
-# In[ ]:
+# In[4]:
 
 
+#3
+print( 'Problem 3 parts a through d' )
+#prints the problem number
+
+def squareplot(low, high, npoints, saveplot=False):
+#defining the function 'square' 
+    """ A function designed to plot the squares of numbers.
+
+    Parameters
+    ----------
+    low : float,
+    This is a variable which detemines the lower end of the range of the plot
+    of the function.
+
+    high : float, 
+    This is a variable which determines the upper end of the range of the plot
+    of the function.
+
+    npoints : int,
+    This is a variable which constitutes the number of points the funcition will plot
+    on the resulting graph. 
+
+    saveplot : str or bool, optional argument
+    This is a filename and is an optional argument which will determine whether or not 
+    the function saves the plot. If False, the plot is not saved. If True, the function must
+    save the ploted image as PDF.
+
+    #these are our variable, there are more than in function 'square' but if we can describe
+    them in detail then it should be easy to keep track of them.
+
+    Returns
+    -------
+    None : this function has no return, it simple displays the square function may save it
+    depending on the status of the variable 'saveplot'
+
+    #there are no returns here because no values are spit out, only a graph
+
+    Examples
+    --------
+    >>> squareplot( 1, 7, 5 "squareplot_example.pdf")
+
+    #example of what to input and expect from squareplot
+
+    Updates
+    -------
+    Fixed an issue with the structure of the if statement:
+    >>> if saveplot is False:
+    >>> if saveplot is not False:
+
+    """
+
+    x = np.linspace( low, high, npoints )
+    y = square(x)
+    #defines the range and number of points on the graph as variable 'x', before 
+    #calling the square function to square these values and save then as variable 'y'
+
+    plt.plot( x, y )
+    plt.xlabel( "Input" )
+    plt.ylabel( "Output" )
+    plt.title( "Square Function Plot" )
+    #plots and labels the graph of the function accordingly
+
+    if saveplot is not False: 
+        plt.savfig(saveplot, format="pdf")
+        #presents a condition regarding when to save the graph as a PDF
+
+    plt.show()
 
 
 

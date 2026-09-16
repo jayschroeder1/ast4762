@@ -413,7 +413,7 @@ This indicates a failed connection. Finally, we tried connecting my computer to 
 
 Back to the homework:
 
-I created a support functions file based off of the template provided by the Professor. I was careful to follow the conventions of the template, annotating and recording everything properly. I created a function named 'square' which can accept both scalar and arrays as instructed.
+2) I created a support functions file based off of the template provided by the Professor. I was careful to follow the conventions of the template, annotating and recording everything properly. I created a function named 'square' which can accept both scalar and arrays as instructed.
 
 *****OUT: Tue Sep 15 15:47:25 EDT 2026
 
@@ -430,7 +430,7 @@ I tried again, the issue was my passwords werent working but finally I got a tok
 
 I got GitHub working. Woohoo!
 
-1 cont.) I commited the file to GitHub by first saving the work I had done in a Jupyter notebook as a .py file. This file was downloads and manually moved to my Windows-based hw3_jmschroeder folder. Then I opened my terminal; I had created a hw3_jmschroeder folder in Ubuntu earlier, but this was going to give me a conflict so I deleted it manually by diving into the Linux files. Ubuntu -> home -> ast4762 -> right click to delete the folder I didnt need. I have been burned before with the rm command so for now I wont be taking any chances. In the terminal I ran cp -r "/mnt/d/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/hw3_jmschroeder" ~/ast4762/homework/ to copy the Windows folder into the Linux directory. Next I pushed these changes to GitHub by running
+2 cont.) I commited the file to GitHub by first saving the work I had done in a Jupyter notebook as a .py file. This file was downloads and manually moved to my Windows-based hw3_jmschroeder folder. Then I opened my terminal; I had created a hw3_jmschroeder folder in Ubuntu earlier, but this was going to give me a conflict so I deleted it manually by diving into the Linux files. Ubuntu -> home -> ast4762 -> right click to delete the folder I didnt need. I have been burned before with the rm command so for now I wont be taking any chances. In the terminal I ran cp -r "/mnt/d/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/hw3_jmschroeder" ~/ast4762/homework/ to copy the Windows folder into the Linux directory. Next I pushed these changes to GitHub by running
 
 >>> git add . 
 >>> git commit -m "Added hw3_jschroeder to repository"
@@ -439,6 +439,28 @@ I got GitHub working. Woohoo!
 Then I checked Git to ensure it was there and it was.
 
 Jupyter crashed, reloading Jupyter. From here I will make a new .py file named hw3_jmschroeder 
+
+
+*****OUT: Tue Sep 15 20:39:11 EDT 2026
+
+*****IN: Tue Sep 15 11:28:19 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Problem 2 is completed, moving on. 
+
+3) File named hw3_jmschroeder was created successfully. It is currently completed up to parts a through d. I created a function named 'squareplot' that is designed to call function 'square' and plot the data on a graph. This graph is then optionally saved as a PDF. 
+
+Edited function 'squareplot'; there was a bug regarding an if statement, the updates to which exist in the docstring
+
+
+
+
+
+
 
 
 
