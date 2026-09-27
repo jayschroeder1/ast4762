@@ -1,0 +1,389 @@
+Jay Schroeder
+Log for AST 4762, Fall 2026
+*****IN: Wed Aug 26 15:12:00 EDT 2026
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/Downloads/0-ast4762-jmschroeder.log
+Name:Jay Schroeder
+ Username: jmschroeder
+
+What astronomy classes have you taken? AST2002, AST3110, AST4700
+Are you generally comfortable with calculus and physics? Yes
+Have you ever programmed a computer? Yes
+ In what language(s)? Python
+Have you taken a programming class, and if so which? COP2500
+Have you taken statistics or probability? No
+Will you be attending the DPS conference this year, or will
+you be away otherwise? No
+Why are you taking this course? I am taking this course to familiarize myself and further my understanding with the coding required to be successful in astrophyisics.
+Are there particular topics you hope to learn? None in particular, I'm curious about and eager to learn all of it.
+If you have programmed outside of a course before, please
+briefly describe: I have programmed for COP2500 and breifly for research and personal use.
+If you have worked with scientific data before, briefly
+describe your experience: I have worked with scientific data for small science reports/research projects in highschool, as well as in previous classes.
+Please describe any projects in astronomy, including
+involvement in amateur groups, owning a telescope,
+research, etc.: I own two telescopes which I have had for a little over a decade. I have participated with the UCF Astronomy Society in their Knights Under The Stars events. I have consulted with professors at UCF for research opportunities involving exoplanets and ring systems. 
+
+I will make a homework folder by first creating a folder called ast4762. From here, I will create a separate folder within ast4762 and name it hw0_jmschroeder. To copy the log file, I will duplicate the document and save the copy into hw0_jmschroeder. The hw0_jmschroeder folder will then be saved a zip file. This file will then be submitted to the HW0 assignemnt on Webcourses.
+*****OUT Wed Aug 26 15:11:03 EDT 2026
+
+*****IN: Mon Aug 31 10:31:22 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Beginning HW1. Everything is installed and good to go its just a matter of taking screenshots and submitting.
+
+HW1 P1) Created HW1 folder under my ast4762 folder and labeled it hw1_jmschroeder.
+
+HW1 P2) I took a screenshot of my Jupyter notebook as instructed by problem 2 of HW1. What I did was press the button next to the delete key on my keyboard, the one labeled "prt sc", and a menu popped up. This menu allowed me screenshot a select area (in this case my entire screen) and then save the captured image. I saved the image as hw1_jmschroeder_problem2_screenshot1.png and moved it into hw1_jmschroeder.
+
+To find my Python version, I opened a new file in Jupyter under my Classwork and Notes folder and labeled it Day Three. There, I ran a simple code to retrieve the version number:
+
+import sys
+print(sys.version)
+
+My Python Version is 3.13.9
+
+Next I started GitHub Desktop and took a screenshot of the application. I did this the same way I took the other screenshot, by pressing the "prt sc" key, cropping the image to my liking, and saying it to my hw1_jmschroeder folder as hw1_jmschroeder_problem2_screenshot2.png.
+
+*****OUT Mon Aug 31 11:21:39 EDT 2026
+
+*****IN: Mon Aug 31 12:23:02 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+
+HW1 P3) Next I opened my Unix terminal via the Ubuntu desktop extension. From here I signed into my session and waited for a response from my computer. This process took awhile for me and I'm not entirely sure why. Worth investigating later. From here I logged into stokes why running the 1s command from the HW1 instructions. They I took a screenshot following the same proccess that I did for the other three: "prt sc" -> crop -> save as hw1_jmschroeder_problem3_screenshot.png
+
+*****OUT Mon Aug 31 12:55:20 EDT 2026
+
+*****IN: Mon Aug 31 13:33:24 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+HW1 P4) For this part, I will explain how I will save and upload my hw1_jmschroeder folder with the previous screenshots and this log inside. I will make a copy of my log by duplicating the file currently saved under the ast4762 folder. From there I will drag and place the duplicate into the hw1_jmschroeder folder. Next, the folder will be saved as a zip file by first right clicking the folder, selecting the "Compress File" option in the pop-up, and then selecting ZIP from the list of file types. I will open up the Webcourses assignment labeled HW1. Fianlly, I will select the "Choose a file to upload" box under the assignment submission, select my zipped hw1_jmschroeder file, and then submit the assignment.
+
+
+*****OUT Mon Aug 31 13:42:56 EDT 2026
+
+*****IN: Mon Sep 1 23:46:52 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Begin testing wsl to ensure that everything was installed correctly. I will go  over the documents provided by the professor and reread them carefully to make sure no steps where missed or skipped.
+
+I believe everything is working well, but I will check tomorrow. 
+
+*****OUT Mon Sep 2 00:17:10 EDT 2026
+
+*****IN: Mon Sep 2 13:37:02 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+More wsl testing, looking at the document handouts provided by the professor.
+
+I couldn't get Anaconda working within my terminal so I installed the linux package for it form the Anaconda website. Everything seems to work.
+
+*****OUT: Mon Sep 2 14:22:54 EDT 2026
+
+*****IN: Mon Sep 2 14:31:46 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Wednesday, Spetember 2nd lecture. 
+
+Small error loading the terminal but hopefully a restart fixes it.
+
+Terminal is up. Windows Anaconda is loading. L04 in the files includes todays demo and eight other files.
+
+Anaconda up, loading Jupyter.
+
+Jupyter up.
+
+Python typically takes 1/6th of the time a language like C  requires to run something which is neat.
+"If you want a reminder of all basic things Python you can (re)visit ThinkPython2e (https://greenteapress.com/thinkpython2/thinkpython2.pdf) and our phz3150 material (if applicable).
+Remember that the basic modules of Python have great online manuals, and all your general questions probably already have an answer on Stackoverflow (https://stackoverflow.com/)"
+-copied from Python_functions_coding_style_F25-classroom-filledin.ipynb in L04 folder provide by Professor Harrington
+
+We will be using numpy a lot for the math in this class and moving forward. scipy is the sister program to this. astropy is a nice accessory to these for writing specific files. pandas was mentioned last class, its fairly broad. If youre interested in data retrievals, there are a few packages for these too. There are even packages for exoplanet retrievals.
+
+Python 3.11 or later
+NumPy 1.24 or..
+Astropy 5.3 or..
+SciPy 1.10 or..
+Matplotlib 3.7 or..
+Regions 0.9 for aperture photometry or..
+scikit is here too and is useful but I didnt quite get the version number or purpose
+
+Following the examples in class. I need to figure out how to most the L04 folder with the demos out of the the 'Downloads' folder within Jupyter.
+
+Worked throughout the document, didn't quite make it to functions.
+
+*****OUT: Mon Sep 2 16:20:32 EDT 2026
+
+*****IN: Mon Sep 4 14:29:05 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Loading everything was slow today, probably just the computer spinning up after being asleep for awhile.
+
+Covering mostly the formating of code so that its readable and as bug-free as possible.
+
+Continued the classwork sheet from last class.
+
+Sometimes its good to slow down when you code, sometimes this means breaking out pen and paper. If youre stuck, try this.
+
+*****OUT: Mon Sep 2 16:18:53 EDT 2026
+
+*****IN: Mon Sep 9 08:34:22 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Beginning HW2 after spending most of the weekend ill. 
+
+1) I began by opening the Ubuntu terminal on my laptop, before opening the folder ast4762/homework folder I had created previously. To do this I ran cd ~/ast4762/homework. Once inside this folder, I then created a new folder named hw2_jmschroeder per the problem's instructions. 
+
+I have been trouble-shooting my laptop for some time trying to get Jupyter to respond.
+
+Tried lauching Jupyter through WSL to keep everything fixed and orderly but this was a bit of a headache. For now I will just use a temporary notebook named HW2_temporary_notebook to complete the homework. This notebook must be saved as .py file later
+
+2) Created an array x of range (0,1000) and printed notable values outlined in the HW2 doc.: 
+
+#2a
+#1
+x = np.arange(0, 1001)
+#an array of integers 0 - 1000, including 1000
+#to include 1000, we need 1001 elements
+
+#2
+print(x.dtype)
+#prints the datatype of the array
+
+print(np.max(x))
+#prints the maximum value of the array
+
+print(np.min(x))
+#prints the minimum value of the array
+
+Scaled array x and printed notable values outlined in the HW2 doc.: 
+
+#2b
+x_scaled = x * ( 2 * np.pi / 1000 )
+#scaling array x such that it contains values from 0 to 2pi
+
+print(np.max(x_scaled))
+#prints the maximum value of the new array
+
+print(np.min(x_scaled))
+#prints the minimum value of the new array
+
+Created a new array y such that all values were the sine of the values of x:
+
+#2c
+y = np.sin(x)
+#an array y whose values are the sine values of x_scaled
+
+Printing the value of element 234:
+
+#2d 
+print(y[234])
+#this technically prints the 235th element as Python starts counting at 0
+
+
+3) Moving on, a graph of y vs x was made using the following code:
+
+
+#3
+#much of this code is going to look like what we covered in last week's lectures in the file Python_functions_coding_style_F25-classroom-work
+#I am using this code as a baseline for this assignemnt
+
+plt.figure( figsize = ( 6, 3 ) )
+#plots the figure
+
+plt.plot( x, y, label='sin(x)', color='red', linewidth = 0.5 )
+#plots the function y in terms of x, labels it as sin(x), colors it red, and specifies the linewidth
+#linewidth chosen for readability
+
+xy_plot = plt.title( 'Function of Sine, 0 to 2π' , fontsize = 15)
+plt.xlabel( 'x (radians)', fontsize = 14 )
+plt.ylabel( 'y (values of sine)', fontsize = 14 );
+#labels the graph and axis appropriately
+#this graph is publication ready to the specifications of work we did in class
+plt.savefig('hw2_jmschroeder_problem3_xyplot.png' , dpi = 300)
+
+The last line of code here saves the graph as a PNG. Then I called the shutil funciton to move the file into the correct folder, hw2_jmschroeder. The extension wasnt quite complete, landing the file in ast4762, but I moved it manually to its final destination. 
+
+import shutil
+shutil.move ( 'hw2_jmschroeder_problem3_xyplot.png', 'D:/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762' )
+
+
+
+4) Onto problem 4, here is the code I used:
+#4a
+1#
+ramp = np.linspace( -1, 1, 101)
+#this creates a "ramp" array, complete with 101 evenly spaced elements from -1 to +1
+
+#2
+clipped_ramp = np.clip( ramp, -0.5, 0.5)
+#this masks the array such that any value greater than 0.5 is equal to 0.5, and any value less an -0.5 is equal to -0.5
+
+#4b
+#
+plt.figure( figsize = ( 6, 5 ) )
+#plots the figure
+
+plt.plot( ramp, color='blue', linewidth = 2 )
+plt.plot( clipped_ramp, color='red', linewidth = 2 )
+#plots both ramp and clipped_ramp to the same plot
+
+xy_plot = plt.title( 'Clipped Ramp' , fontsize = 15)
+plt.xlabel( 'X', fontsize = 14 )
+plt.ylabel( 'Y', fontsize = 14 )
+#labels the graph and the axis appropriately, per the example give in the homework instructions
+
+plt.yticks( np.arange(-1.00, 1.25, 0.25), fontsize = 14 );
+#aranges the y-axis into intervals of 0.25
+
+#2
+plt.savefig('hw2_jmschroeder_problem4_xyplot.png' , dpi = 300)
+#saves the figure as hw2_jmschroeder_problem4_xyplot.png
+
+I successfully saved the image using the methods described and moved it into the appropriate folder with this code:
+
+import shutil
+shutil.move ( 'hw2_jmschroeder_problem4_xyplot.png', 'D:/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/hw2_jmschroeder' )
+
+5) These are copies of the paragraphs put into strings in my this homework:
+
+"https://www.astropy.org/
+The AstroPy package is a community-built bundle that improves upon the usability and collaboration of several astronomy-based Python packages. The package itself is first and foremost a tool made for professional astrophysicists and astronomers to better interpolate data. Included in it are several affiliated packages that share the core goals of Astropy while building upon its infrastructure. Together, the Astropy community, its developers, and its many users aim to share the utilities and techniques used when conducting science in this field. 
+
+https://sunpy.org/
+The SunPy package is an open-source software package useful in solar physics for its comprehensive data analysis capabilities. It, like AstroPy, is a collaborative work built upon several packages core to data analysis such as NumPy, SciPy, Matplotlib, and Pandas. SunPy was created in partnership with scientists and developers at the NASA Goddard Space Flight Center in order to have a dedicated tool for solar physics. The goal of the package and its associated organization is to provide the tools necessary to analyze the ever growing catalogue of solar data."
+
+My entire compute crashed but luckily Jupyter was saved. If it wasn't at least I had my code backed up here. 
+
+File downloaded and saved as a .py file. 
+
+Logging into STOKES
+
+6) Problem 6 has to be omitted for now as I cannot seem to log into STOKES. I will speak with the TA about this, this is an issue that must be resovled
+
+7) The file will be submitted s a tar.gz file, done by running a script in the terminal.
+
+*****OUT: Mon Sep 9 13:56:45 EDT 2026
+
+*****IN: Mon Sep 14 22:52:22 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Massive Error, I deleted ast4762. This is a backuplog, I will be working from here.
+
+Practicum 1
+
+1)
+
+#Coding without a loop
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.arange( 0, 300 )
+x.shape = ( 300, 1 )
+#creating an array x of floating points and setting its shape
+
+arr = np.zeros((300, 200)) 
+arr.shape
+arr.dtype
+#arranging the array
+
+arr += x 
+#making arr a function dependent on x
+
+plt.imshow(arr, cmap='gray', origin='lower' );
+plt.savefig('practicum1_jmschroeder_problem1_graph.png' , dpi = 300)
+#plots graph and saves it as a PNG file
+
+row = np.random.randint( 0, 300 )
+column = np.random.randint( 0, 200 )
+
+print( f"[{column}, {row}] = {[ column, row ]}"
+       f"Expecting y = {row}"
+    
+)
+
+x = np.empty( ( 200, 300 ), dtype = np.float64)
+#creates and array 
+
+for y in range(300):
+    x[:, y] = y
+    #looping the array y times in terms of x
+
+
+plt.imshow( np.transpose(x), cmap='gray', origin='lower' );
+#presents the graph appropriately, transposing it so that the axes are correct
+
+2) Asking AI to do the same as a loop:
+
+
+Make a 300×200 Float64 array. Each array element should contain its own x coordinate, starting with x = 0 for column 0 and ending with x = 299 for column 299 (i.e., column 0 has 200 zeros). Do so using a  loop.
+
+And without a loop:
+Can you make a 300×200 Float64 array? Each array element should contain its own x coordinate, starting with x = 0 for column 0 and ending with x = 299 for column 299 (i.e., column 0 has 200 zeros). Do this first without a loop and display the resulting graph. Display this array using the matplotlib function for showing the image with a cmap of ‘gray’. We do not need labels for this example.
+
+When it comes to prompting AI, you have to be incredibly specific. You cannot just allude to what you want, you have to tell it verbatim.
+
+3)
+from astropy.io import fits
+
+read = fits.open( r'C:\Users\jschr\Downloads\m42_40min_ir.zip' )
+read.info()
+#opens the file and reads the information inside
+
+image = read[0].data
+#ascribes the read file data to a new variable
+
+print( image.shape )
+print( image.dtype )
+#formats the file into an appropriate shape
+
+plt.figure( figsize=(6,3) )
+plt.imshow( image, cmap='gray', origin='lower' )
+plt.xlabel('X Pixel')
+plt.ylabel('Y Pixel')
+plt.title('M24 - Jay Schroeder')
+#labels axes, labels graph, and orients the entire presentation in the correct format
+
+plt.savefig('practicum1_jmschroeder_problem3_irimage.png', dpi=300)
+
+plt.show();
+#presents the image
+
+*****OUT: Mon Sep 14 23:11:52 EDT 2026
