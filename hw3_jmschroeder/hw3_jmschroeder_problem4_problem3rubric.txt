@@ -1,0 +1,20 @@
+Problem 4
+---------
+
+20 Points Total
+
+Creating the Array (12 Points)
+-Is there an array x of evenly spaced points from the low up to, and including, the high end of the range? (2pts)
+-Is there a call to function square exactly once to get array y that is the square of array x? (4pts)
+-Is there a plot of y vs x? (4pts)
+-If saveplot is not False, does the function save the plot image as a
+PDF in the file name given by the user through the saveplot argument? (2pts)
+
+The Plot (4 Points)
+-Are the horizontal and vertical axes of the plot should be labeled “Input” and “Output”, respectively, and is the title of the plot “Square Function”?
+
+Documentation (2pts)
+-Is there documentation in the form of a docstring? Does this documentation include an example? Is the log updated accordingly to catch bugs?
+
+Running the Function (2pts)
+-Were the squares of the numbers 1, 2.5, 4, 5.5, and 7, ran as inputs of the function? Was this saved to an appropriately named file?
