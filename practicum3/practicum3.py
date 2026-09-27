@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[29]:
+# In[48]:
 
 
 #Jay Schroeder
@@ -10,10 +10,15 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-import pandas as pd
+import linfit
+
+
+# In[47]:
+
 
 print( 'Problem One-a' )
 
+#opens file 'practicum3_1.dat" and prints its data
 with open( "practicum3_1.dat", "r" ) as file:
     content = file.read()
     print(content)
@@ -30,11 +35,10 @@ with open( "practicum3_1.dat", "r" ) as file:
 #this works too, this is a method a classmate used
 
 
-# In[44]:
+# In[49]:
 
 
 print( 'Problem One-b' )
-import linfit
 
 #uncertainty given in the procedure
 y_unc = 0.5
@@ -68,7 +72,7 @@ plt.show()
     we can see that the parameters are within 3sigma of the parameters of the true line. '''
 
 
-# In[33]:
+# In[50]:
 
 
 print( 'Problem One-c' )
@@ -77,11 +81,10 @@ print( 'Problem One-c' )
     assuming the data came from a fitted model with some stated random error '''
 
 
-# In[45]:
+# In[51]:
 
 
 print( 'Problem One-d' )
-import linfit
 
 #uncertainty given in the procedure
 y_unc = 0.5
@@ -112,6 +115,53 @@ plt.show()
     regard the absurdly large chi squared value, a value which indicates minimal correlation. From this, 
     we can determine that the parameters are not within 3sigma of uncertainty. To create a better fit, I
     should use a quadratic equation to model the data. '''
+
+
+# In[62]:
+
+
+print( 'Problem Two-a' )
+
+#N number of photons
+N = 10000
+
+#draws from a poisson distribution for N photons, and a uniform distribution between 0 and 10^6
+pix_poi = np.random.poisson( N, 396 )
+pix_uni = np.random.uniform( 0, 10**6, 4 )
+
+#concatenates the two samples and perscribes then variable 'sample', before taking the mean and median
+#and printing the result
+sample = np.concatenate( (pix_poi, pix_uni) )
+mean = np.mean(sample)
+med = np.median(sample)
+print( f"Mean: {mean}", f"Median: {med}" )
+
+#Mean: 15185.417345596668 Median: 10001.0
+
+''' Here, we can see that the median value is closer to N. '''
+
+
+# In[67]:
+
+
+print( 'Problem Two-b' )
+
+#standard deviation of 'sample'
+sig = np.std(sample)
+
+#creating a mask for this data using a subsample within 5sigma called 'subsample'
+subsample = sample[ np.abs(sample - med) <= 5*sig ]
+print( f"Standard Deviation: {sig}" )
+print( f"Sample Mean: {np.mean(subsample)}, Sample Median: {np.median(subsample)}" )
+print( f"Subsample Stardard Deviation: {np.std(subsample)}" )
+
+#Standard Deviation: 57709.69052534049
+#Sample Mean: 9981.644272671938, Sample Median: 10007.0
+#Subsample Stardard Deviation: 452.76402154480246
+
+''' Here, we can see that the original standard deviation is considerable large due to there existing 
+    4 pixels in the data that can have a value up to 10^6. After masking the data, the median and mean
+    falls closer to 10000. '''
 
 
 # In[ ]:

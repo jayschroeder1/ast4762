@@ -834,9 +834,13 @@ Problem One)
 -updated personal GitHub instructions 
 
 Problem Two) 
-	- part 'a': 
+	- part 'a';]
+ created the distributions asked for by the problem and found the mean and median. In a docstring I said that N was closer the median of the data
+	- part 'b'; created a mask for the data and commented its mean, median, and standard deviation. Wrote a docstring describing what has happened. 
 
+-I will move this log into the 'practicum3' folder I have created before then converting the folder to a tar.gz file and submitting it 
 
+*****OUT: Sun Sep 25 16:21:28 EDT 2026
 
 
 
