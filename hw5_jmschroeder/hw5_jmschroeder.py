@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[11]:
 
 
 #Jay Schroeder
@@ -12,7 +12,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-# In[13]:
+# In[12]:
 
 
 print( 'Problem Two' )
@@ -43,7 +43,7 @@ print( f"Subsample Stardard Deviation: {np.std(subsample)}" )
 
 
 
-# In[15]:
+# In[13]:
 
 
 #assigning variables to the median and std. dev. of 'subsample'
@@ -61,6 +61,26 @@ print( f"Sub-subsample Stardard Deviation: {np.std(sub_sub)}" )
     N = 10000, and the sub-sample standard deviation is closer to 100. This method will not always remove
     bad pixels because if for example a bad pixel exists within the 5sigma clipping range, it will not be 
     removed. '''
+
+
+# In[14]:
+
+
+print( 'Problem Three' )
+
+#importing function 'sigrej'
+import sigrej
+
+#using function 'sigrej' to create a mask that rejects extraneous data points to achieve 
+#a more accurate mean
+#attributing this new cleaned data to variable 'cleaned_sub_sub'
+mask = sigrej.sigrej(sub_sub, (5., 5.))
+cleaned_sub_sub = sub_sub[mask]
+
+#calculating and printing the mean of the newly cleaned 'sub_sub' sample
+print( f"Cleaned Sub-Subsample Mean: {np.mean(cleaned_sub_sub)}" )
+
+''' The mean of this data set is the same as the mean calculated in the previous problem '''
 
 
 # In[ ]:

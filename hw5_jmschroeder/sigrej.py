@@ -9,7 +9,7 @@
 #Sigrej Function for Homework Five
 
 
-# In[ ]:
+# In[4]:
 
 
 import numpy as np
@@ -54,13 +54,25 @@ def sigrej( data, limits, mask=None):
     if mask is None:
         mask = np.ones( data.shape, dtype=bool )
     else: 
-        mask = np.array( mask, dtype=bol, copy=True )
+        mask = np.array( mask, dtype=bool, copy=True )
 
     for limit in limits:
         good_data = data[mask]
         mean = np.mean(good_data)
         sig = np.std(good_data)
-        mask = mask and ( np.abs(data - mean) <= limit*sig )
+        mask = mask & ( np.abs(data - mean) <= limit*sig )
 
     return mask
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
