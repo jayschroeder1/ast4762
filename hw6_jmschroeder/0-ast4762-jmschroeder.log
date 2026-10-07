@@ -1065,5 +1065,24 @@ Problem Two)
 
 *****OUT: Tue Oct 06 22:51:11 EDT 2026
 
+*****IN: Wed Oct 07 10:34:56 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Got to a campus computer and downloaded MobaXterm to connect to Stokes
+-Moved my files over from my laptop to this computer with a flash drive
+-Moved the files from the drive to a folder I made in Stokes 
+-Attempted a push to Stokes
+-Stokes read the file but ran into a technical snag:
+	>>> OpenBLAS blas_thread_init: pthread_create failed for thread 6 of 32: Resource temporarily unavailable
+-Will inquire further about this
+-For now, I will convert my hw6_jmschroeder folder into a tar.gz file and submit
+
+
+*****OUT: Wed Oct 07 11:06:21 EDT 2026
+
 
 
