@@ -859,7 +859,7 @@ Problem Two)
 
 *****OUT: Sun Sep 27 21:13:40 EDT 2026
 
-*****IN: Mon Sep 28 8:12:46 EDT 2026
+*****IN: Mon Sep 28 08:12:46 EDT 2026
 
 Opened TextEdit, stated this log, saved as:
 /home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
@@ -882,7 +882,17 @@ Problem 4)
 
 *****OUT: Mon Sep 28 10:29:01 EDT 2026
 
+*****IN: Mon Sep 28 10:32:23 EDT 2026
 
+-Git push successful, continuing Problem Four
+-Copied files to Stokes by taking files from my flash drive 'hw5_jmschroeder' folder to my Stokes 'hw5_jmschroeder' folder. I did this by physically dragging the files with my curser from one folder into the other. Then I tested my .py files
+
+-I will copy this log into my Stokes folder via the same method listed above; I will physically drag the files from my flash drive folder into my Stokes folder. Then I will make a tar.gz folder by running the following command: 
+	>>> tar -czvf hw5_jmschroeder.tar.gz hw5_jmschroeder/
+
+-This log will then be copied and pushed to Stokes
+
+*****OUT: Mon Sep 28 11:38:36 EDT 2026
 
 
 
