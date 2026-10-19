@@ -1,0 +1,1470 @@
+Jay Schroeder
+Log for AST 4762, Fall 2026
+*****IN: Wed Aug 26 15:12:00 EDT 2026
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/Downloads/0-ast4762-jmschroeder.log
+Name:Jay Schroeder
+ Username: jmschroeder
+
+What astronomy classes have you taken? AST2002, AST3110, AST4700
+Are you generally comfortable with calculus and physics? Yes
+Have you ever programmed a computer? Yes
+ In what language(s)? Python
+Have you taken a programming class, and if so which? COP2500
+Have you taken statistics or probability? No
+Will you be attending the DPS conference this year, or will
+you be away otherwise? No
+Why are you taking this course? I am taking this course to familiarize myself and further my understanding with the coding required to be successful in astrophyisics.
+Are there particular topics you hope to learn? None in particular, I'm curious about and eager to learn all of it.
+If you have programmed outside of a course before, please
+briefly describe: I have programmed for COP2500 and breifly for research and personal use.
+If you have worked with scientific data before, briefly
+describe your experience: I have worked with scientific data for small science reports/research projects in highschool, as well as in previous classes.
+Please describe any projects in astronomy, including
+involvement in amateur groups, owning a telescope,
+research, etc.: I own two telescopes which I have had for a little over a decade. I have participated with the UCF Astronomy Society in their Knights Under The Stars events. I have consulted with professors at UCF for research opportunities involving exoplanets and ring systems. 
+
+I will make a homework folder by first creating a folder called ast4762. From here, I will create a separate folder within ast4762 and name it hw0_jmschroeder. To copy the log file, I will duplicate the document and save the copy into hw0_jmschroeder. The hw0_jmschroeder folder will then be saved a zip file. This file will then be submitted to the HW0 assignemnt on Webcourses.
+*****OUT Wed Aug 26 15:11:03 EDT 2026
+
+*****IN: Mon Aug 31 10:31:22 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Beginning HW1. Everything is installed and good to go its just a matter of taking screenshots and submitting.
+
+HW1 P1) Created HW1 folder under my ast4762 folder and labeled it hw1_jmschroeder.
+
+HW1 P2) I took a screenshot of my Jupyter notebook as instructed by problem 2 of HW1. What I did was press the button next to the delete key on my keyboard, the one labeled "prt sc", and a menu popped up. This menu allowed me screenshot a select area (in this case my entire screen) and then save the captured image. I saved the image as hw1_jmschroeder_problem2_screenshot1.png and moved it into hw1_jmschroeder.
+
+To find my Python version, I opened a new file in Jupyter under my Classwork and Notes folder and labeled it Day Three. There, I ran a simple code to retrieve the version number:
+
+import sys
+print(sys.version)
+
+My Python Version is 3.13.9
+
+Next I started GitHub Desktop and took a screenshot of the application. I did this the same way I took the other screenshot, by pressing the "prt sc" key, cropping the image to my liking, and saying it to my hw1_jmschroeder folder as hw1_jmschroeder_problem2_screenshot2.png.
+
+*****OUT Mon Aug 31 11:21:39 EDT 2026
+
+*****IN: Mon Aug 31 12:23:02 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+
+HW1 P3) Next I opened my Unix terminal via the Ubuntu desktop extension. From here I signed into my session and waited for a response from my computer. This process took awhile for me and I'm not entirely sure why. Worth investigating later. From here I logged into stokes why running the 1s command from the HW1 instructions. They I took a screenshot following the same proccess that I did for the other three: "prt sc" -> crop -> save as hw1_jmschroeder_problem3_screenshot.png
+
+*****OUT Mon Aug 31 12:55:20 EDT 2026
+
+*****IN: Mon Aug 31 13:33:24 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+HW1 P4) For this part, I will explain how I will save and upload my hw1_jmschroeder folder with the previous screenshots and this log inside. I will make a copy of my log by duplicating the file currently saved under the ast4762 folder. From there I will drag and place the duplicate into the hw1_jmschroeder folder. Next, the folder will be saved as a zip file by first right clicking the folder, selecting the "Compress File" option in the pop-up, and then selecting ZIP from the list of file types. I will open up the Webcourses assignment labeled HW1. Fianlly, I will select the "Choose a file to upload" box under the assignment submission, select my zipped hw1_jmschroeder file, and then submit the assignment.
+
+
+*****OUT Mon Aug 31 13:42:56 EDT 2026
+
+*****IN: Mon Sep 1 23:46:52 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Begin testing wsl to ensure that everything was installed correctly. I will go  over the documents provided by the professor and reread them carefully to make sure no steps where missed or skipped.
+
+I believe everything is working well, but I will check tomorrow. 
+
+*****OUT Mon Sep 2 00:17:10 EDT 2026
+
+*****IN: Mon Sep 2 13:37:02 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+More wsl testing, looking at the document handouts provided by the professor.
+
+I couldn't get Anaconda working within my terminal so I installed the linux package for it form the Anaconda website. Everything seems to work.
+
+*****OUT: Mon Sep 2 14:22:54 EDT 2026
+
+*****IN: Mon Sep 2 14:31:46 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Wednesday, Spetember 2nd lecture. 
+
+Small error loading the terminal but hopefully a restart fixes it.
+
+Terminal is up. Windows Anaconda is loading. L04 in the files includes todays demo and eight other files.
+
+Anaconda up, loading Jupyter.
+
+Jupyter up.
+
+Python typically takes 1/6th of the time a language like C  requires to run something which is neat.
+"If you want a reminder of all basic things Python you can (re)visit ThinkPython2e (https://greenteapress.com/thinkpython2/thinkpython2.pdf) and our phz3150 material (if applicable).
+Remember that the basic modules of Python have great online manuals, and all your general questions probably already have an answer on Stackoverflow (https://stackoverflow.com/)"
+-copied from Python_functions_coding_style_F25-classroom-filledin.ipynb in L04 folder provide by Professor Harrington
+
+We will be using numpy a lot for the math in this class and moving forward. scipy is the sister program to this. astropy is a nice accessory to these for writing specific files. pandas was mentioned last class, its fairly broad. If youre interested in data retrievals, there are a few packages for these too. There are even packages for exoplanet retrievals.
+
+Python 3.11 or later
+NumPy 1.24 or..
+Astropy 5.3 or..
+SciPy 1.10 or..
+Matplotlib 3.7 or..
+Regions 0.9 for aperture photometry or..
+scikit is here too and is useful but I didnt quite get the version number or purpose
+
+Following the examples in class. I need to figure out how to most the L04 folder with the demos out of the the 'Downloads' folder within Jupyter.
+
+Worked throughout the document, didn't quite make it to functions.
+
+*****OUT: Mon Sep 2 16:20:32 EDT 2026
+
+*****IN: Mon Sep 4 14:29:05 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Loading everything was slow today, probably just the computer spinning up after being asleep for awhile.
+
+Covering mostly the formating of code so that its readable and as bug-free as possible.
+
+Continued the classwork sheet from last class.
+
+Sometimes its good to slow down when you code, sometimes this means breaking out pen and paper. If youre stuck, try this.
+
+*****OUT: Mon Sep 2 16:18:53 EDT 2026
+
+*****IN: Mon Sep 9 08:34:22 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Beginning HW2 after spending most of the weekend ill. 
+
+1) I began by opening the Ubuntu terminal on my laptop, before opening the folder ast4762/homework folder I had created previously. To do this I ran cd ~/ast4762/homework. Once inside this folder, I then created a new folder named hw2_jmschroeder per the problem's instructions. 
+
+I have been trouble-shooting my laptop for some time trying to get Jupyter to respond.
+
+Tried lauching Jupyter through WSL to keep everything fixed and orderly but this was a bit of a headache. For now I will just use a temporary notebook named HW2_temporary_notebook to complete the homework. This notebook must be saved as .py file later
+
+2) Created an array x of range (0,1000) and printed notable values outlined in the HW2 doc.: 
+
+#2a
+#1
+x = np.arange(0, 1001)
+#an array of integers 0 - 1000, including 1000
+#to include 1000, we need 1001 elements
+
+#2
+print(x.dtype)
+#prints the datatype of the array
+
+print(np.max(x))
+#prints the maximum value of the array
+
+print(np.min(x))
+#prints the minimum value of the array
+
+Scaled array x and printed notable values outlined in the HW2 doc.: 
+
+#2b
+x_scaled = x * ( 2 * np.pi / 1000 )
+#scaling array x such that it contains values from 0 to 2pi
+
+print(np.max(x_scaled))
+#prints the maximum value of the new array
+
+print(np.min(x_scaled))
+#prints the minimum value of the new array
+
+Created a new array y such that all values were the sine of the values of x:
+
+#2c
+y = np.sin(x)
+#an array y whose values are the sine values of x_scaled
+
+Printing the value of element 234:
+
+#2d 
+print(y[234])
+#this technically prints the 235th element as Python starts counting at 0
+
+
+3) Moving on, a graph of y vs x was made using the following code:
+
+
+#3
+#much of this code is going to look like what we covered in last week's lectures in the file Python_functions_coding_style_F25-classroom-work
+#I am using this code as a baseline for this assignemnt
+
+plt.figure( figsize = ( 6, 3 ) )
+#plots the figure
+
+plt.plot( x, y, label='sin(x)', color='red', linewidth = 0.5 )
+#plots the function y in terms of x, labels it as sin(x), colors it red, and specifies the linewidth
+#linewidth chosen for readability
+
+xy_plot = plt.title( 'Function of Sine, 0 to 2π' , fontsize = 15)
+plt.xlabel( 'x (radians)', fontsize = 14 )
+plt.ylabel( 'y (values of sine)', fontsize = 14 );
+#labels the graph and axis appropriately
+#this graph is publication ready to the specifications of work we did in class
+plt.savefig('hw2_jmschroeder_problem3_xyplot.png' , dpi = 300)
+
+The last line of code here saves the graph as a PNG. Then I called the shutil funciton to move the file into the correct folder, hw2_jmschroeder. The extension wasnt quite complete, landing the file in ast4762, but I moved it manually to its final destination. 
+
+import shutil
+shutil.move ( 'hw2_jmschroeder_problem3_xyplot.png', 'D:/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762' )
+
+
+
+4) Onto problem 4, here is the code I used:
+#4a
+1#
+ramp = np.linspace( -1, 1, 101)
+#this creates a "ramp" array, complete with 101 evenly spaced elements from -1 to +1
+
+#2
+clipped_ramp = np.clip( ramp, -0.5, 0.5)
+#this masks the array such that any value greater than 0.5 is equal to 0.5, and any value less an -0.5 is equal to -0.5
+
+#4b
+#
+plt.figure( figsize = ( 6, 5 ) )
+#plots the figure
+
+plt.plot( ramp, color='blue', linewidth = 2 )
+plt.plot( clipped_ramp, color='red', linewidth = 2 )
+#plots both ramp and clipped_ramp to the same plot
+
+xy_plot = plt.title( 'Clipped Ramp' , fontsize = 15)
+plt.xlabel( 'X', fontsize = 14 )
+plt.ylabel( 'Y', fontsize = 14 )
+#labels the graph and the axis appropriately, per the example give in the homework instructions
+
+plt.yticks( np.arange(-1.00, 1.25, 0.25), fontsize = 14 );
+#aranges the y-axis into intervals of 0.25
+
+#2
+plt.savefig('hw2_jmschroeder_problem4_xyplot.png' , dpi = 300)
+#saves the figure as hw2_jmschroeder_problem4_xyplot.png
+
+I successfully saved the image using the methods described and moved it into the appropriate folder with this code:
+
+import shutil
+shutil.move ( 'hw2_jmschroeder_problem4_xyplot.png', 'D:/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/hw2_jmschroeder' )
+
+5) These are copies of the paragraphs put into strings in my this homework:
+
+"https://www.astropy.org/
+The AstroPy package is a community-built bundle that improves upon the usability and collaboration of several astronomy-based Python packages. The package itself is first and foremost a tool made for professional astrophysicists and astronomers to better interpolate data. Included in it are several affiliated packages that share the core goals of Astropy while building upon its infrastructure. Together, the Astropy community, its developers, and its many users aim to share the utilities and techniques used when conducting science in this field. 
+
+https://sunpy.org/
+The SunPy package is an open-source software package useful in solar physics for its comprehensive data analysis capabilities. It, like AstroPy, is a collaborative work built upon several packages core to data analysis such as NumPy, SciPy, Matplotlib, and Pandas. SunPy was created in partnership with scientists and developers at the NASA Goddard Space Flight Center in order to have a dedicated tool for solar physics. The goal of the package and its associated organization is to provide the tools necessary to analyze the ever growing catalogue of solar data."
+
+My entire compute crashed but luckily Jupyter was saved. If it wasn't at least I had my code backed up here. 
+
+File downloaded and saved as a .py file. 
+
+Logging into STOKES
+
+6) Problem 6 has to be omitted for now as I cannot seem to log into STOKES. I will speak with the TA about this, this is an issue that must be resovled
+
+7) The file will be submitted s a tar.gz file, done by running a script in the terminal.
+
+*****OUT: Mon Sep 9 13:56:45 EDT 2026
+
+*****IN: Mon Sep 14 22:52:22 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Massive Error, I deleted ast4762. This is a backuplog, I will be working from here.
+
+Practicum 1
+
+1)
+
+#Coding without a loop
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.arange( 0, 300 )
+x.shape = ( 300, 1 )
+#creating an array x of floating points and setting its shape
+
+arr = np.zeros((300, 200)) 
+arr.shape
+arr.dtype
+#arranging the array
+
+arr += x 
+#making arr a function dependent on x
+
+plt.imshow(arr, cmap='gray', origin='lower' );
+plt.savefig('practicum1_jmschroeder_problem1_graph.png' , dpi = 300)
+#plots graph and saves it as a PNG file
+
+row = np.random.randint( 0, 300 )
+column = np.random.randint( 0, 200 )
+
+print( f"[{column}, {row}] = {[ column, row ]}"
+       f"Expecting y = {row}"
+    
+)
+
+x = np.empty( ( 200, 300 ), dtype = np.float64)
+#creates and array 
+
+for y in range(300):
+    x[:, y] = y
+    #looping the array y times in terms of x
+
+
+plt.imshow( np.transpose(x), cmap='gray', origin='lower' );
+#presents the graph appropriately, transposing it so that the axes are correct
+
+2) Asking AI to do the same as a loop:
+
+
+Make a 300×200 Float64 array. Each array element should contain its own x coordinate, starting with x = 0 for column 0 and ending with x = 299 for column 299 (i.e., column 0 has 200 zeros). Do so using a  loop.
+
+And without a loop:
+Can you make a 300×200 Float64 array? Each array element should contain its own x coordinate, starting with x = 0 for column 0 and ending with x = 299 for column 299 (i.e., column 0 has 200 zeros). Do this first without a loop and display the resulting graph. Display this array using the matplotlib function for showing the image with a cmap of ‘gray’. We do not need labels for this example.
+
+When it comes to prompting AI, you have to be incredibly specific. You cannot just allude to what you want, you have to tell it verbatim.
+
+3)
+from astropy.io import fits
+
+read = fits.open( r'C:\Users\jschr\Downloads\m42_40min_ir.zip' )
+read.info()
+#opens the file and reads the information inside
+
+image = read[0].data
+#ascribes the read file data to a new variable
+
+print( image.shape )
+print( image.dtype )
+#formats the file into an appropriate shape
+
+plt.figure( figsize=(6,3) )
+plt.imshow( image, cmap='gray', origin='lower' )
+plt.xlabel('X Pixel')
+plt.ylabel('Y Pixel')
+plt.title('M24 - Jay Schroeder')
+#labels axes, labels graph, and orients the entire presentation in the correct format
+
+plt.savefig('practicum1_jmschroeder_problem3_irimage.png', dpi=300)
+
+plt.show();
+#presents the image
+
+*****OUT: Mon Sep 14 23:11:52 EDT 2026
+
+*****IN: Tue Sep 15 11:28:19 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+1) I created a homework folder in my terminal and named it hw3_jmschroeder/. I did this by first opening my terminal by opening the Ubuntu launcher. Once there, I ran cd ~/ast4762/homework/. Then I ran mkdir hw3_jmschroeder to create the folder. Once I ran that, I ran a simple ls command to ensure that the folder was there. 
+
+I will also be creating a folder in windows into which I will store my work and progress. This folder will then be copied (not moved) into my terminal and the subsequent ~/ast4762/homework/hw3_jmschroeder/ folder. (I learned the mistake of moving folders when I accidentally moved the entire ast4762 into my terminal and promptly deleted it without having a backup). This is the command I will use:
+
+cp -r "/mnt/d/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/hw3_jmschroeder" ~/ast4762/homework/hw3_jmschroeder
+
+I keep everything on a drive, so I will have to run sudo mount -t drvfs D: /mnt/d to mount the drive once the time comes to copy everything. I like doing it this way because then I keep everything organized and readable.
+
+Attempted to resolve Stokes issues. Couldnt make it to the ARCC office hours due to the advisor assisting me not responding to my inquiry. Instead, I sat with Professor Harrington for about an hour attempting to figure out what was wrong. We determined that it is an issue with my computer; there is something in the system blocking Port 22 from being accessed. We came to this conclusion by first testing the secured UCF VPN. When that was good we tried again and still got teh Port 22 error. So we tried ssh -v ja136308@stokes.ist.ucf.edu to circumvent any potential VPNs blcoking the connect. When this didnt work, we tried having me log in through the professors account, but this was blocked by the same issue. He had me run sudo apt install bind9-host to install the 'host' function within Ubuntu, and we ensured that I was on the right IP with host oobleck.physics.ucf.edu. Next we ensured everyhting was up to date by running cat /etc/os-release we tried again to log in through his account but I presented with the same Port 22 error. We ran  nc -vz -w 5 oobleck.physics.ucf.edu 22 to ensure again that I was on the IP, but this too came up with nothing. Next we tried running Test-NetConnection oobleck.physics.ucf.edu -Port 22 in Powershell, which produced:
+
+PingSucceeded          : False
+PingReplyDetails (RTT) : 0 ms
+TcpTestSucceeded       : False
+
+This indicates a failed connection. Finally, we tried connecting my computer to my phone's hotspot. When this also didnt work, we concluded that the issue must be an internal problem with my laptop. This will require some more digging, but hopefully I can have it resolved in time.
+
+Back to the homework:
+
+2) I created a support functions file based off of the template provided by the Professor. I was careful to follow the conventions of the template, annotating and recording everything properly. I created a function named 'square' which can accept both scalar and arrays as instructed.
+
+*****OUT: Tue Sep 15 15:47:25 EDT 2026
+
+*****IN: Tue Sep 15 11:28:19 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Having some issues with GitHub, I cannot commit my files to the repository. I will fix this later, moving on with the rest of the problem.
+
+I tried again, the issue was my passwords werent working but finally I got a token that worked. Only issue is now I cant see the files on GitHub.
+
+I got GitHub working. Woohoo!
+
+2 cont.) I commited the file to GitHub by first saving the work I had done in a Jupyter notebook as a .py file. This file was downloads and manually moved to my Windows-based hw3_jmschroeder folder. Then I opened my terminal; I had created a hw3_jmschroeder folder in Ubuntu earlier, but this was going to give me a conflict so I deleted it manually by diving into the Linux files. Ubuntu -> home -> ast4762 -> right click to delete the folder I didnt need. I have been burned before with the rm command so for now I wont be taking any chances. In the terminal I ran cp -r "/mnt/d/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/hw3_jmschroeder" ~/ast4762/homework/ to copy the Windows folder into the Linux directory. Next I pushed these changes to GitHub by running
+
+>>> git add . 
+>>> git commit -m "Added hw3_jschroeder to repository"
+>>> git push -u origin main
+
+Then I checked Git to ensure it was there and it was.
+
+Jupyter crashed, reloading Jupyter. From here I will make a new .py file named hw3_jmschroeder 
+
+
+*****OUT: Tue Sep 15 18:39:11 EDT 2026
+
+*****IN: Tue Sep 15 19:56:09 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Problem 2 is completed, moving on. 
+
+3) File named hw3_jmschroeder was created successfully. It is currently completed up to parts a through d. I created a function named 'squareplot' that is designed to call function 'square' and plot the data on a graph. This graph is then optionally saved as a PDF. 
+
+Edited function 'squareplot'; there was a bug regarding an if statement, the updates to which exist in the docstring
+
+Downloaded hw3_jmschroeder_support_functions as a .py file. I have done this a few times already but for the sake of logging my process I did it thusly: I saved hw3_jmschroeder_support_functions as an 'executable script' (.py file). This then downloaded to my computer. From here I was able to manually move it from my Downloads folder in Juptyer Notebooks to my Classwork and Notes folder, where it can be accessed by hw3_jmschroeder
+
+Added some updates to hw3_jmschroeder_support_functions to squash some bugs. Downloaded copied of both this file and hw3_jmschroeder and exported them to GitHub.
+
+4) This rubric will be added as a separate .txt file named hw3_jmschroeder_problem3rubric.txt
+
+5) Still having issues with Stokes, but per Professor Harrington's instructions I have outlined the issue and how we attempted to resolve them above. More digging will be done at a later date. 
+
+e) I will commit and push everything to GitHub by first copying all of the content in my Windows-based hw3_jmschroeder folder into my linux based hw3_jmschroeder folder with the following command:
+
+>>> cp -r "/mnt/d/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/hw3_jmschroeder" ~/ast4762/homework/
+
+Once I do that I will enter my ast4762/homework/hw3_jmschroeder and run an ls command to determine whether or not everything is there. With it all there I will then run the following:
+
+>>> git add . 
+>>> git commit -m "updated log, updated hw3_jmschroeder_support_functions, updated hw3_jmschroeder, added hw3_jmschroeder_problem3rubric.txt"
+>>> git push -u origin main
+
+Once that is done, I will tar.gz the file and submit it into Webcourses.
+
+*****OUT: Tue Sep 15 20:47:31 EDT 2026
+
+*****IN: Tue Sep 15 23:03:56 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Updated squareplot function, remained graph from "Square Function Plot" to "Square Function"
+
+*****OUT: Tue Sep 15 23:05:21 EDT 2026
+
+*****IN: Wed Sep 16 14:31:21 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Professor Harrington has structured today's lecture around Zoom today
+-Loading Ubuntu; Ubuntu took way too long to load due to my computer running Zoom in the background. 
+-Covered HW3, calling up two students to review the work of two other students; I was having trouble loading Jupyter Notebook during this process (again, Zoom running), so I must figure out how to prepare my computer in the event that I am called to review homework.
+-Moving on, continuing our discussion of error and error propegation
+-Working in Error analysis-F25-classroom
+-Covering error propegation, there is a nice graph showcasing what this looks like in the file.  Chapter 3 in Bevington goes into more detail regarding it.
+-Looking at some examples:
+	1) If x = auv, with constant a, what is sigma^2_s?
+-Wrote some code which takes the equation, z = 3*x + y**2 and considers the error if x = 2.0 +- 0.2 and y = 1.33 +- 0.15. It prints z +- dz.
+-Wrote some code for a problem in Bevington:
+From Bev. Ch 3: example 3.3¶
+	In an experiment to count particles emitted by a decaying radioactive source, we 
+	measure N1 = 723 counts in a 15-s time interval at the beginning of the experiment
+	 and N2 = 19 counts in a 15-s time interval later in the experiment. The events are 
+	random and obey Poisson stats.
+	Assume that we have made a very careful measurement of the background counting rate 
+	in the absence of the radioactive source and obtained a value B = 14.2 counts with 
+	negligible error for the same time interval.
+-Code: 
+	#corrected values:
+
+	N1 = 723 
+	N2 = 19
+	t_int = 15
+	B = 14.2 #negligible error
+		    
+	#poisson statistics so that we know that the uncertainties in N1 and N2 are just their square roots
+
+	N1bs = N1 - B
+	N2bs = N2 -B
+	
+	uncert1 = np.sqrt(N1bs)
+	uncert2 = np.sqrt(N2bs)
+
+	print( 'N1+-uncert1 = {0:.2f}+-{1:.2f}'.format(N1bs, uncert1) )
+	print( 'N2+-uncert2 = {0:.2f}+-{1:.2f}'.format(N2bs, uncert2) )
+
+*****OUT: Wed Sep 16 16:24:47 EDT 2026
+
+*****IN: Thu Sep 17 15:26:02 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Attempted to resolve linging Stokes issues. Re-attempted the methods I discussed with Professor Harrington on Tuesday. No luck, so I will move on to other methods
+
+*****OUT: Thu Sep 17 15:45:58 EDT 2026
+
+*****IN: Fri Sep 18 15:01:39 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Quiz on probability and error
+-I have taken to using this format of notes as opposed to what I had been doing. I feel it is more readable this way. 
+-I have also taken to launching Jupyter Notebook from a terminal instaed of from the Anaconda laucncher. This should hopefully make things run smoother. The only downside is I have to move any downloaded files from Canvas into a 'downloads' folder in my Linux files. ~/home/downloads
+
+-For problem one of Practicum 2, I wrote a function for the a Gaussian distribution. Where I struggled I used ChatGPT, with my prompts listed below.
+
+*****OUT: Fri Sep 18 16:19:17 EDT 2026
+
+*****IN: Sat Sep 19 20:45:10 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Opened Jupyter Notebook to begin HW4.
+-Updated a text file with some important terminal commands.
+-Ran into a problem with GitHub, I will resolve this tomorrow.
+
+*****OUT: Sat Sep 19 21:09:31 EDT 2026
+
+*****IN: Sun Sep 20 16:37:28 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Resuming work on HW4
+-Resolved GitHub issue and added the following command to my list of useful commands
+>>> git init -b main
+
+Problem 1) 
+-I created a new folder for HW4 by fist opening my terminal using the Ubuntu application. I entered my ast4762 directory and my homework folder by running the command: >>> cd ~/ast4762/homework. Then I created a new folder called hw4_jmschroeder by running the command: >>> mkdir hw4_jmschroeder
+-Remember to submit a .py file, not a .ipynb file
+
+Problem 2) 
+-created some code which utilizes the np.random.normal function to draws a random number of N draws from a Gaussian distribution of sigma = 13 and mu = 55
+-assigned this code to variable 'sample'
+-I saved this file as a .py and pushed it to GitHub using the commands listed:
+
+>>> git add . 
+>>> git commit -m "created Gaussian function"
+>>> git push -u origin main
+
+-created a histogram by plotting the 'sample' with the matplotlib function .hist, and organized it to be publication ready in accordance to the example in the procedure
+-saved this graph as a PNG using the .savefig function of matplotlib.
+-created a plot of the Gaussian distribution equation and scaled it to fit the data by multipying it by N, before ploting it to the save graph using the .plot function
+-downloaded the Jupyter notebook I used as a .py file
+
+Problem 3)
+-I am still having issues with Stokes but these should hopefully be resolved in the coming days. I've been looking into what might be blocking my access and will continue to do so until the issue is resolved.
+-I have pushed my files to GitHub and provided proof of such using the method listed below: 
+>>> git add . 
+>>> git commit -m "created Gaussian function"
+>>> git push -u origin main
+
+-I will convert my hw4_jmschroeder folder into a tar.gz file by first cd-ing into the correct directory and then running the command:
+
+>>> cd ~/ast4762/homework/
+>>> tar -czvf hw4_jmschroeder.tar.gz hw4_jmschroeder/
+
+*****OUT: Sun Sep 20 23:18:01 EDT 2026
+
+*****IN: Mon Sep 21 10:31:54 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Attempted an completed the one of the extra credit questions, the derivation of the full-width half maximum (FWHM) of the Gaussian function
+-added it to my hw4_jmschroeder folder, converted this new folder into a tar.gz file with the following command, and submitted it:
+>>> cd ~/ast4762/homework/
+>>> tar -czvf hw4_jmschroeder.tar.gz hw4_jmschroeder/
+
+*****OUT: Mon Sep 21 11:17:21 EDT 2026
+
+*****IN: Mon Sep 21 14:30:37 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Class start, firing up terminal and Jupyter Notebook
+-Systematic and random error demo, measuring Professor Harrington: Slight bouncing (systematic), measurerer is short (systematic), bent knees (systematic), slight swaying (systematic), slouching (systematic), heels are up (systematic), the measuring stick does not always touch the ground (systematic), the tape measure bends (systematic) 
+-The bigger your uncertainty, the less useful your answer
+-Going over HW4
+-FWHM helps in determining your sigma of any probability distribution 
+-Log-log plots have a power law slope and are useful as such since power laws are very common in nature
+-Standard deviation is what you want to measure with, but math is typically done with the variance (adding in quadrature)
+-Moving to notes, today we are in 'Error_propagation_cont'd-F25-classroom'
+-Negative correlation is often called anticorrelation
+	- R in [-1, 1]
+	- R = 1 correlated (luminosity to temperature)
+	- R = -1 anticorrelated (gravity to mass)
+	- R = 0 no correlation (two different periods of two different systems)
+-With correlation coefficients, variance is on the diagonal and covariance is on the off-diagonal 
+-As an astronomer, the square root of 10 is 3, and of 60 is 8
+-To impove detection and imaging, you must observe longer. this behaves like a power law, so if you want 10 times the data, you have to observe 100 times as long
+-Opening 'Fitting_data_F25-classroom'
+-Moving on to maximum likelihood; the most probable value for the mean mu of an observed sample distribution is the one that has the maximum probability P(mu)''
+-It will be very handy in the future to memorize the derivation for the maximum likelihood
+-Measurement space vs phase space
+-Error in a large number of measurements
+-Error and mean on many measurements; the error in the mean depends on the standard deviation and improves with the square root of N
+	-Get more data, improve your understanding of you data
+	-Certain things may prevent this, such as limited resources, systematics, non-statistical fluctuations in your data, etc.
+-This is not the scatter of our measurements, this is the error in the center of the scatter
+-We aim to find the best estimates xbar, sigma of the mean and its uncertainty
+	-As well as this, we can see how confident we are in our results, and how well have we captured the parent distribution properties
+-These are the fundamentals, please for the sake of me go through the readings and examples
+-Monte Carlo analysis:
+	-Numerical integrations of functions that can be graphed do not always have simple analytical solutions
+	-Simulations of random variables using random samples from a uniform distribution. 
+	-Estimatiosn of uncertainties in the best-fit parameters of analytical models used to fit data
+-There are step to this in the handout; the associated reading is Bevington Chpt.5
+-Covariance matrix
+
+*****OUT: Mon Sep 21 14:19:52 EDT 2026
+
+*****IN: Wed Sep 23 00:57:02 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Resuming Practicum 2
+Problem One) 
+-I pulled the code to create a sample of N draws from a Gaussian distribution from HW4
+
+Problem Two)
+-for problem two, I wrote some code which generates a new sample 10 times, determines its mean and standard deviation, and adds these values to a list. It turns the list into an array and rounds it to two decimal places per the example given.
+
+Problem Three)
+-I asked ChatGPT to do the previous two problems with the following prompt: 
+	
+	How would you write some code that creates a subsample containing N random draws from a Gaussian distribution with a width σ = 13 and mean μ = 55? What code would you then write to take N=10 random draws of a sample, extract its mean and standard deviation, and display it in an array of outputs?
+
+-It first wrote a function called 'random' which takes arguments for mu, sigma, and N. It then wrote a for loop very similar to mine. However, it did not include a line to round the data, thus the outputs are the actual values of the sample.
+
+Problem Four)
+-I Googled how to write a file and wrote 'hw4_jmschroeder_practicum2_problem4.txt'. This file has 10 draws. I then moved it and saved it to my 'practicum2' folder.
+
+Problem Five)
+-I reused the code from Problems Three and Four here, rewriting some of the values and names to create files with 100, 10000, 100000, and 1000000 draws. They are saved as follows:
+
+	>>> hw4_jmschroeder_practicum2_problem5_100.txt
+	>>> hw4_jmschroeder_practicum2_problem5_1000.txt
+	>>> hw4_jmschroeder_practicum2_problem5_10000.txt
+	>>> hw4_jmschroeder_practicum2_problem5_1000000.txt
+
+-These files were moved into the 'practicum2' folder.
+-Ran into an illegitimate error. I had been looping the operations N times instead of doing N draws. This will be correct and the files remade.
+-scrapping all made files, renaming 'hw4_jmschroeder_practicum2_problem4.txt' to 'hw4_jmschroeder_practicum2_outputarray.txt', redoing the process with and appeneding the new arrays into the same file. I jumped the ahead a bit, I should really slow down sometimes.
+-Calling it here, will continue tomorrow.
+
+*****OUT: Wed Sep 23 02:29:11 EDT 2026
+
+*****IN: Wed Sep 23 08:32:54 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Picking up where I left off
+-I rewrote the function for N draws to be a loop instead of manually replacing values or writing it several times. 
+
+Problem Six)
+-I gave the problem a swing but I couldn't quite crack it, so I prompted ChatGPT with the following:
+
+	I have a text doc. with six 10x3 arrays, each derived from N number of draws from a Gaussian distribution such that N is 10, 100, ..., 1,000,000. The first column is the entry number, the second column is the mean, and the final column is st.dev. How would you write some code that could read this file, take the means from the data, find the st.dev of the means, place these into their own array, and append the text file?
+
+-I couldnt ChatGPT, so this prompt remains as what I would have prompted it to do.
+-Instead I consulted Google to see if I could finish this problem and I did
+
+Problem Seven)
+-Log-log plot created and saved, will be moving all files into 'practicum2_jmschroeder' folder before taring said folder
+
+*****OUT: Wed Sep 23 11:11:19 EDT 2026
+
+*****IN: Wed Sep 23 14:33:34 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Class time
+-Working in 'Fitting_data_F25-classroom' again
+-Still calling back to 'Error analysis-F25-classroom', recalling Bevington Chpt. 3
+
+-Going back over the error propagation equation; Say f = uv; df/du = 1 df/dv = 1 --> sigma_f = sqrt(sig_u^2 + sig_v^2); this is called adding in quadrature
+-This helps in determining and error ellipse; asteroid impact statistics sometimes includes Mars which is a very very big ellipse and likely wrong
+-Say f = auv; you can think of constants with variables with extremely small uncertainties; df/du = av, df/dv = au --> sigma_f^2 = sigma_u^2a^2v^2 + sigma_v^2a^2u^2 --> divide both sides by f and auv respectively --> sigma_ f= f*sqrt((sigma_u^2/u^2) + (sigma_v^2/v^2))
+-Say f = u^2; df/du = 2u; sigma_f = (2u)^2sigma_u^2
+-This is not the same as f = a^2; sigma_f = sqrt(2)*a*sigma_a
+-Know these formulas fundamentally, it is the difference between being right and wrong in a paper
+
+-Back to 'Fitting_data_F25-classroom' 
+-Side error is very easy to do, thats the good part, the bad  part is that if you have too many variables the entire analysis comes down to 1
+-Typically, the best thing to do is to do both the Monte Carlo and Error Propagation analysis to be extra sure 
+-Chi-squared test
+-Moving on to least squares
+-Consider a scatter plot with error bars, such as one for a linear fit; I'm not entirely sure why, but he drew one so it must be relevant
+-Going throught the least squares notes in the doc, lots of formulas
+-Can't have a three parameter linear fit 
+-scipy.optimize.leastsq is good for analyzing data for chi^2; the stp by step for this process is as follows:
+
+	>>>Evaluate the function
+	>>>Compute chi^2 vs. data
+	>>>Vary the parameters and repeat
+	>>>It explores parameter space, looking for the minimum chi^2
+	>>>It uses a function minimization routine
+	>>>Calculates gradients in chi^2 and walks down them
+	>>>Parameter errors are related to second derivatives near chi^2 minimum
+
+-Chi^2 space, trying to find the bottom of curve with many dimensions
+-Chi^2 = summation((x_1-mu)/sigma)^2; this is the goodness of fit criterion
+-A typical value of chi^2 is N-m; when chi^2 ~ 1, we have a good fit and call this the Reduced Chi^2
+-Lots of misses by many sigma means you underestimated your error bar size or your theory is wrong
+-Student t-test
+-Fitting models to data, Bevington Chpts. 6, 8, 10, 11
+-Moved 'linfit.py' doc from 'Downloads' into 'downloads'
+-Working with the fit of a sinusoidal data set
+-Residuals are important to consider, they can be a good place to make discoveries
+-If it converges quickly, then that means you started very close to the true value
+-This sinusoidal function will return in a practicum, so get familiar with it
+
+-Chi^2 assumes Gaussian statistics
+-If chi^2 >> 1, you made a poor measurment or something else is incorrect; chi^2 << 1 means we probably have a misunderstanding of the experiment
+-expectation value for chi^2 = v, where v is the degrees of freedom, in most cases 1
+
+*****OUT: Wed Sep 23 16:18:26 EDT 2026
+
+*****IN: Fri Sep 25 14:36:34 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Later today I will be meeting with someone from Stokes to see if my login has been fixed
+-Loaded a terminal and fired up Jupyter Notebook. Started working on Practicum 3
+-Downloaded 'practicum3_1.dat' from files, copied 'linplot.py' into 'work folder'
+-Be careful with append because when you have millions of poitns of data you are actually copying the entire array you have and then adding onto the copy; you are spending most of your time copying the data
+-Anathema; something or someone that is intensely disliked, loathed, or formally cursed or exluded
+-You dont want exceptional data; in this field, excpetional is never good; this is why chi^2 is so important
+-You shouldn't believe any data until you can see the chi^2 or reduced chi^2 value
+-Quiz Wednesday
+-Starting sigma clipping; what if there is more than one random variable in a system? let us see
+-What value do you expect; you should always have a value you are expecting
+-Sometimes you just find stuff by fishing, which is cool but rare
+-Sigma clipping will return in the project, you need to understnad this and get it correct
+-np.where will be your friend for HW5
+
+*****OUT: Fri Sep 25 16:22:19 EDT 2026
+
+*****IN: Sun Sep 27 12:54:41 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-I am under the weather but there is work to be done. 
+-Finishing Practicum 3
+
+Problem One)
+	- part 'a' was already completed, the data was loaded correctly
+	- part 'b'; I called linfit and gave it its parameters so that it would create an appropriate fit for the data. I answered the questions attached to this problem in the form of a docstring within the .py file. 
+	- par 'c'; this question was answered in the form of a docstring within the file. The plot was then saved as 'practicum3_jmschroeder_problem1c_model1plot.png' using the appropriate python commands.
+	-part d; Model 2 was graphed appropriately and the questions from parts 'b' and 'c' were answered in kind. The graph was then saved as a 'practicum3_jmschroeder_problem1d_model2plot.png' using the appropriate methods.
+
+-GitHub gave me strife but I resolved the issue
+-updated personal GitHub instructions 
+
+Problem Two) 
+	- part 'a';]
+ created the distributions asked for by the problem and found the mean and median. In a docstring I said that N was closer the median of the data
+	- part 'b'; created a mask for the data and commented its mean, median, and standard deviation. Wrote a docstring describing what has happened. 
+
+-I will move this log into the 'practicum3' folder I have created before then converting the folder to a tar.gz file and submitting it 
+
+*****OUT: Sun Sep 27 16:21:28 EDT 2026
+
+*****IN: Sun Sep 27 19:54:11 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Problem One) 
+-made a folder for HW5 called 'hw5_jmschroeder' by cd-ing into my ~/ast4762/homework/ directory and then running the following command:
+	>>> mkdir hw5_jmschroeder
+-I will be sure to push my progress to GitHub. Tomorrow morning I will attempt a Stokes push by installing MobaXterm on a school computer and moving my file there.
+
+Problem Two)
+- I took the code that I made for Practicum 3 Problem 2 and rewrote the variables such that I created a subsample of the subsample called 'sub_sub'. Then I found the mean, median, and std. dev. of 'sub_sub' and made a docstring describing why these calculations were different.
+
+*****OUT: Sun Sep 27 21:13:40 EDT 2026
+
+*****IN: Mon Sep 28 08:12:46 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-made it to the UCF library to try Stokes from a campus computer
+-got Stokes working on a library computer
+
+Problem Three)
+-I created a function called 'sigrej' which takes in a data array, a limit, and an optional Boolean statement before performing sigma rejection on said data
+-The function was structured in the manner prescribed by the course
+-I went back into my 'hw5_jmschroeder' file and called the function, before running it with my sub-subsample 'sub_sub'. 
+
+Problem 4)
+-I logged into Stokes via a campus computer. I downloaded MobaXterm to this computer before opening the application in files. I logged into Stokes by creating a new session under the 'Session' tab, selecting the 'SSH' option, and then signing in using the Stokes domain 'stokes.ist.ucf.edu' and my NID.
+-I created a folder in Stokes for HW5 by running this command in my homework directory:
+	>>> mkdir hw5_jmschroeder
+-I will push a copy of this log to GitHub
+
+*****OUT: Mon Sep 28 10:29:01 EDT 2026
+
+*****IN: Mon Sep 28 10:32:23 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Git push successful, continuing Problem Four
+-Copied files to Stokes by taking files from my flash drive 'hw5_jmschroeder' folder to my Stokes 'hw5_jmschroeder' folder. I did this by physically dragging the files with my curser from one folder into the other. Then I tested my .py files
+
+-I will copy this log into my Stokes folder via the same method listed above; I will physically drag the files from my flash drive folder into my Stokes folder. Then I will make a tar.gz folder by running the following command: 
+	>>> tar -czvf hw5_jmschroeder.tar.gz hw5_jmschroeder/
+
+-This log will then be copied and pushed to Stokes
+
+*****OUT: Mon Sep 28 11:38:36 EDT 2026
+
+*****IN: Mon Sep 28 14:34:54 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Setting everything up for class; logging into Zoom for peer evaluations, downloading peer homeworks, loading Jupyter
+-Everything loaded after like 20 minutes, a new record
+-Going over codes, looking at sigrej functions and HW5 files
+-Harrington is from Boston (or at least grew up there)
+
+-Moving on; the readings for this upcoming unit is chapters 1-2, 3.1, and 3.5 in Howell
+-Working in 'CCDs-classroom' for this lecture and likely the next few; actual astronomy stuff!
+-"Schrodingers cat knew." -Harrington
+-Talking about CCDs and quantum efficiency (QE); comparing different detectors based off of how efficient they are
+-Charged Coupled Device is an array of metal insulator semiconductor (MIS) capacictors
+-2D array of "wells" (they produce pixels, but sometimes these are just straight-up called pixels)
+-There is a trade-off between speed and readout; faster clocking, more noise; slower clocking, less noise
+-Sensitivity of CCDs is dependent on temperature, thats why these are typically cooled before observing (sometimes with liquid hydogen)
+-Dark current is caused when thermal vibrations in Si free electrons and then traps them in a pixel well; this is read as noise; strong dependence on temperature (~77K from liquid nitrogen cooling)
+-Read noise is random; dark current is both random and systematic
+-Best does not necessarily mean good; we use test instruments that are reliable
+
+*****OUT: Mon Sep 28 16:20:12 EDT 2026
+
+*****IN: Wed Sep 30 15:12:12 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Made it to class, took the quiz; the quiz was good but I think I might have messed up on some of the formating; hopefully the extra point from doing the problem on the board will off set it a bit
+
+-Back in 'CCDs-classroom.ipynb'
+-Talked about IR arrays in 'IR_Arrays_Sky_and_corrections_classroom-F25.ipynb'
+-A CMOS array might be better for infared for a number of reasons
+-Fast data; phone cameras (modern ones anyways) use CMOS arrays
+-The amount of noise in a room versus in space is higher, however we dont care since the things in a room are very good signal producers; astronomical objects are typically not
+-Cameras radiate heat onto themselves; multiplexer detectors are typically cooled with liquid helium
+-Data volume with space-based observatories matters a lot
+-Non-destructive reads
+-CCDs are slow and accurate, multiplexers are fast and noisy
+
+-IR arrays have slower development
+-Systematics correction and sky subtraction
+-Flat-field pattern; an affect of the sensitivity of the pixels 
+-Blooming happens when electrons fill a well completely and begin to spill out; this is caused by exposing for longer than necessary; full well is good but you want to be at less than half of full well
+-Horizontal streaks are patterns of sensitivity, same with speckling
+-Array effects
+-ADU equation solves for F_*
+-Space week and stuff around that (fun stuff)
+-'nodding' vs 'chopping', chopping is quicker however dithering is useful for stars that take up a very small portion of the image
+
+
+*****OUT: Wed Sep 30 16:20:46 EDT 2026
+
+*****IN: Fri Oct 02 14:25:47 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Made it to class, working on Practicum 4 today; I was unable to work ahead on it due to studying for other classes
+-HW7 is going to be long, you are going to be spending at least 4 hours reading 4 research papers
+-I at least made a file for it, so by a technicality Problem One is done
+-fits.getdata(datadir + objfile[i]); .getdata and .getheader are recommended for this assignment
+-Going over functions and commands for reading files regarding 'rdpharo'
+-"lock, stock, and barrel"
+-Attribute where you get code from
+-Work on the data in place using =+, =*, etc to save memory; otherwise you will just be copying everything
+-In some cases its better to use np.zeros instead of np.array in the event that there are gaps in the data
+-Talked about fitting models to exoplanet data
+-When you read papers, ask yourself what tests did they do to prove to me that their answers arent fake; what analyses were conducted and how well of a job did they do
+
+-Talking about chi^2; What are we using it for? Fits.
+-When fitting models to data 
+-Maximum likelihood method (MLM)
+-To do this, we assume that the errors follow a Gaussian distribution and that the data points are independently distributed (have no correlation wrt time)
+-Probability of model 1 is the probability of the model on each data point --> (1/(sqrt2)sigma)^n*exp(-1/2*chi_1^2)
+-Probability of model 2 is the probability of the model on each data point --> (1/(sqrt2)sigma)^n*exp(-1/2*chi_2^2)
+-When fitting, you are selecting which model is correct
+-We can do a probability ratio P_1/P_2; if this ration comes out as say e^-10, that means that P_1 would be e^-10 times as likely as P_2
+
+*****OUT: Fri Oct 02 16:25:12 EDT 2026
+
+*****IN: Mon Oct 05 14:43:01 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Made it to class, today we are discussing research papers. This is very important so pay attention
+-Working in 'Paper_writting-classroom'
+-I completed Practicum 4 last night, however I didn't I have the log open though I probably should have
+
+-With a paper, you are writing a story with a clear line of logic
+that either shows why you think you are correct or incorrect
+-You must admit that there are things you can't say yet because you dont have the evidence
+-Proposals are designed in a similar way, however they are more argumentativem; they are designed to give you access to stuff
+-Pay attention to how the papers are written, not just the content but the style too
+-You dont have to teach them the basics, but you do have to tell them what you did
+-There will be tens of citations, maybe hundreds; cite literally everything that you did not make
+-You do not need to but literally everything in your compendium (the corpus of your code and whatnot) in your paper, just enough to convince people
+-Read the style guide before you start writing
+-Overleaf is an editor that produces a type setting system like LaTeX, which will help with writing papers
+
+-Three rules: know your subject, know your audience, and know what you want your audience to know (begin with your end in mind)
+-The abstract is a summary of your conclusions
+-The Mercury graben journal is made for general audiences to get this in front of as many scientifically minded people as possible; if it was written for geologists, it would be more in depth with the geology
+-See if you can spot where the Popular article stops where the scientific article continues; does the author do a good job relaying the data
+-Nature and Science (and Space.com) are the places you go when you want your paper in front of laypeople
+-If a formula or equation are included, they must have a number
+-Do not use the passive voice, use the active voice; this is so that way you passively claim responsibility 
+
+-Back to the .ipynb file
+-Be concise with your writing and percise with your language; give numbers, give facts (so no 'fairly', 'likely', 'probably' etc.)
+-Word it in such a way that you aren't self congratulatorly; say how you improved on something and let the reader say "wow this is better than this other paper"
+-DRAFT EARLY; draft with a plan and with holes that you can fill; remember that you are writing a story, one that has to make logical sense.
+-"how will this affect the dairy industry?"; disussions are why this matters, the affect that this research will have on people
+-Conclusions are more than a a summary, they are for future considerations and things to consider going into the future
+
+-In the abstract, you must state your key scientific claims, key numericla results, the goal, the approach, and the result; be terse, you do not want to expand much here
+-Introductions should have a general roadmap for how the paper will be ordered and things will be discussed
+-Again, be concise; "due to the fact that" will always come down to "because"
+-Always cite stuff because you would much rather someone else be wrong than youself
+-Finish with a strong sentence if and only if they come naturally
+-You are writing for history, you are writing to an editor with a budjet of pages
+-High-level, serious, unemotional, minimalist, concise; theres a dry, minimalist humor to certain sytles that might make people laugh but dont write with the intent to make people laugh
+-Be simple and clear; engineer each sentence if you have to
+-If something is wrong, suck it up, rewrite it to be even better 
+
+*****OUT: Mon Oct 05 16:19:38 EDT 2026
+
+*****IN: Tue Oct 06 21:00:17 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Beginning HW6
+
+Problem One)
+-Made a folder fo HW6 called 'hw6_jmschroeder' by running the following commands in a terminal:
+	>>> cd ~/ast4762/homework
+	>>> mkdir hw6_jmschroeder
+-Loaded Jupyter Notebook
+-Testing GitHub with a pre-work push; push successful
+
+Problem Two)
+-the wording of the problem had me confused for a second regarding whether or not I should be working in the same file as Practicum 4
+-I've decided to copy the code from Practicum 4 into this new .ipynb file so that way I could keep everyhting condensed and accessible
+-I copied the code over, cleaning it up in a few places by removing a few print statements
+-Used the np.median function to find the median values of the images, then wrote a print statement to find the value of pixel index [217, 184]
+-added a HISTORY entry to the header and wrote a file called 'dark_13s_med.fits'
+-took a small break of about 20 minutes
+-subtracted the 2D array for the dark frames from the 3D array I made for the object files and saved that as its own variable; I did it this way because I wanted to perserve the two arrays instead of overwriting the first one
+-This log will be saved and moved into the homework file, as well as a screenshot showing proof of a GitHub push
+-A Stokes push will be made tomorrow morning, as I cannot access Stokes from this computer
+
+*****OUT: Tue Oct 06 22:51:11 EDT 2026
+
+*****IN: Wed Oct 07 10:34:56 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Got to a campus computer and downloaded MobaXterm to connect to Stokes
+-Moved my files over from my laptop to this computer with a flash drive
+-Moved the files from the drive to a folder I made in Stokes 
+-Attempted a push to Stokes
+-Stokes read the file but ran into a technical snag:
+	>>> OpenBLAS blas_thread_init: pthread_create failed for thread 6 of 32: Resource temporarily unavailable
+-Will inquire further about this
+-For now, I will convert my hw6_jmschroeder folder into a tar.gz file and submit
+
+*****OUT: Wed Oct 07 11:06:21 EDT 2026
+
+*****IN: Wed Oct 07 13:56:34 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Pre-loading the notebook files we will be using in class today
+-Took a break, about 20 minute
+-Made it class
+-Its not always good to include overwrite=True in your fits.writeto statement
+-I cant seem to get the peer-made assignments running; one has a note in their log regarding having some issues trying to get the code to run on Stokes; the other file has the same issue but there is no mention of having any difficulty
+-There are several errors I am spotting with my submission; I should work on it again at some point to try and iron out these issues as we are going to be using this code and process for the next few assignments
+-Tried using the .ipynb files for each just to see if it was an issue with me moving things between the documents but this did not work either; I will look at this again later, but for now these files don't seem to be working properly
+-10860 is the actual vlaue, I am somehow off by nearly 1000
+-'From homework 6 import star'
+
+-Moving on, working in 'Coding_analysis_classroom.ipynb'
+-Talking about the path to making a good proposal; these are the lifeblood of doing research, so make sure that these are good
+
+-Think Pair: Is the Moon made of green cheese?
+-this is important because we care about how the moon affects 
+-some competing ideas include that the moon is rock, maybe ice
+-measuring the the orbit and orbital velocity to determine the mass and volume and density (using radar); go there!; analyze existing data; in situ analysis; measure spectrum from Earth
+-there could be discrepencies with our measurments in volume, we're taking a uniform density so we could miss small 
+-seismic data, take some data
+
+*****OUT: Wed Oct 07 16:23:01 EDT 2026
+
+*****IN: Fri Oct 09 14:38:45 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Made it to class, working in 'Presenting_your_data-classroom.ipynb'
+-Laying out the ground rules for why we make plots
+-Its good to add minor ticks when making plots, however Python does not do this automatically
+-mpimg.imread reads an image file, which can be colored or monochrome; the example is of Jupiter to show contrast in flux
+-vmin and vmax are incredibly useful
+-to see any parameter for plotting something, try plt.imshow()? or just Google it
+-plotting a legend, plotting text; annotating plots with fitting parameters is very useful
+-LaTeX is good for plotting symbols
+-There is an example in the notebook that I would like to finish later; the one with HST WFC3/G141 spectra data
+-ax commands
+-matplotlib.ticker is good for adding ticks to better scale your graph; 
+-Major and minor axes have to be made with these tick parameter functions
+-Twinning some plots so that they exist on the same graph
+-Four panel plots, made by setting a fig, ((ax1, ax2), (ax3, ax4))
+-A lot of the stuff here is covered in Cameron's version of this notebook, which will be posted
+
+-Switching gears, working in 'Coding_analysis_classroom.ipynb'
+-Have your data in another directory and code and call that data instead of hardcoding it
+-Putting a bunch of support functions in a support functions file is great practice
+-Talking about formatting strings
+-Glob is useful for grouping and organizing files; arguably, this is more useful than listdir
+-Write your code such that errors are called out rather than stopping the entire code; this is done with 'try' and 'except' in a for loop; this is not perfect, as it does not tell you exactly what is wrong
+-There is another example in here, this time regarding CCDs; a signal to noise equation is always in units of electrons
+-SNR is the number of electrons in units electrons divided by noise; (N_*(i) - N_background(i))/ sigma_noise, where N is count and sigma_noise is sqrt(N_*)
+-Sigma_background here is Poisson statistics
+-Say A = 300px, N_background = A_n, so sigma_background = sqrt(A_n)
+-sigma_* = sqrt(N_*)
+-sigma_noise is ~ sigma_background^2 + sigma_*^2 + sigma_read^2
+-sigma_read^2 ~ Ar^2, where r is read noise per electron
+
+*****OUT: Fri Oct 09 16:24:01 EDT 2026
+
+*****IN: Sun Oct 11 17:31:02 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Starting HW7; I've done some of the readings already so now its just a matter of writing the summaries.
+
+Problem One)
+-Made a folder fo HW7 called 'hw7_jmschroeder' by running the following commands in a terminal:
+	>>> cd ~/ast4762/homework
+	>>> mkdir hw7_jmschroeder
+-Loaded Jupyter Notebook
+-Testing GitHub with a pre-work push; push successful
+
+*****OUT: Sun Oct 11 18:32:58 EDT 2026
+
+*****IN: Sun Oct 11 19:35:21 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Problem Two)
+-Papers were read and paragraphs written in a Google Doc
+-Copying them here
+
+Key Points of: A map of the day-night contrast of the extrasolar planet HD 189733b 
+
+This paper discusses an investigation performed on the exoplanet HD 189733b, the closest eclipsing hot Jupiter system. A presumably tidally-locked world, the researchers describe how they sought to determine whether or not the atmosphere of HD 189733b transports energy from the dayside to the nightside. To do this they observed the planet in a 33.1 hour period using the InfraRed Array Camera aboard the Spitzer Space Telescope. From this data they were able to construct a ‘map’ of the temperature distributions across the planet, concluding that the energy of the irradiated dayside is redistributed throughout the atmosphere.
+
+The data for this investigation came from the Infrared Array Camera aboard the Spitzer Space Telescope, operating  in the 8 µm channel, and observing with a cadence of 0.4s. The team had to account for an error in their data early on in their analysis, as they found a gradual detector-induced rise in the signal measured in each pixel over time. For this, they began correcting the data by calculating an estimated median for each pixel in the array and interpolating it over their base set of curves. Then, they divided the flux of each pixel by the value of the interpolated curve, noting to ignore pixels with illumination levels higher than 210 MJy/sr  as these are consistent before and after transit. Then by comparing these results to the flux of the M dwarf star of the system, they were able to conclude that this approach to fixing the data had worked. The paper then explains how they came to their conclusions about the peak flux of the minimum hemisphere-integrated flux (64 ± 7% of the maximum flux), the peak in flux, the position of the world where this peak occurs (16 ± 6 degrees before opposition), and potential effects of the planetary system that may muddle the conclusions drawn. The researchers were also able to draw conclusions about the brightest temperature of the dayside, about 1205.1±9.3 K, as well as a minimum hemisphere-averaged brightness temperature of roughly 973 ± 33 K around 6.7 ± 0.4 hours after the transit and a minimum of roughly 1212 ± 11 K occurring 2.3 ± 0.8 hours before the onset of the secondary eclipse. 
+
+
+Key Points of: The Broadband Infrared Emission Spectrum of the Exoplanet HD 189733b 
+
+This paper discusses an investigation also concerning the exoplanet HD 189733b. The investigation conducted here was an attempt to better understand the atmosphere of this world and shed light on the nature of hot Jupiter atmospheres. The researchers found that their data was inconsistent with emission detections from a previous study, suggesting that, unlike a similar exoplanet HD 209458b, HD 189733b does not have an atmospheric temperature conversion. This, the researchers conclude, gives merit to the idea that hot Jupiter atmospheres diverge into two distinct classes dependent on stellar irradiance.
+
+The team first made use of data gathered from the Spitzer Space Telescope’s Infrared Array Camera. The team took four sets of images, 2 from IRAC channels (3.6 and 4.5 µm) using InSb detectors and two from IRAC channels (5.8 and 8.0 µm) using Si:As detectors. Due to fundamental differences regarding these two types of detectors, the team had to correct for these discrepancies by fitting first a Gaussian distribution to the data and then a quadratic function of the sub-pixel position of the center of light. Then, the team fitted a correction of the intra-pixel sensitivity of the array using the Monte Carlo method in order to determine a best fit for eclipse depth and times. This analyzed data was then compared to data from Spitzer’s IRS instrument, analyzing this too with the Monte Carlo method, and finding that the two analyses fell within 1σ of each other. Finally, the team analyzed data from Spitzer’s MIPS 24 µm array by fitting a Gaussian of the sky background of each image and subtracting the median of this from the data. They then used the Monte Carlo method to compare these results to the other two tests. The researchers compared the analyzed data to two atmospheric models of HD 189733b. The first model assumes that the absorbed stellar flux is confined to the day side, while the other model uniformly distributes the stellar flux over the entire planet. From this, the team were able to conclude that there may be water present in the atmosphere of HD 189733b,  noting a hole in the atmospheric opacities near 4 µm and a trough from 4.5 − 8.0 µm consistent with water absorption, however they note that this appears to stand in contrast with emissions across the 7.5−14.7 µm bandpass, blue wavelengths consistent with water absorption. They postulate that while water  appears to be present other spectral features may be masking these emissions in the 8 − 10 µm range. This conclusion stands in contrast with a study conducted on the exoplanet HD 209458b, suggesting that there may be fundamental atmospheric differences between these two planets despite being in the same class of object. They note that this would lend credence to the idea there are two primary atmospheric groups for such worlds, as the enhanced short-wavelength irradiation for objects like HD 209458b might generate dramatically different photochemical products and hazes than those present on HD 189733b. 
+
+
+Key Points: THE DEEP BLUE COLOR OF HD 189733b: ALBEDO MEASUREMENTS WITH HST/STIS AT VISIBLE WAVELENGTHS 
+
+This investigation regards spectrographic data gathered by the Hubble Space Telescope regarding the albedo of the exoplanet HD 189733b. The research team took measurements of geometric albedos of A = 0.40 ± 0.12 across 290–450 nm and A < 0.12 across 450–570 nm within 1σ of certainty. From this data, the team was able to conclude that, since the albedo of the world decreases towards longer wavelengths, this may suggest that there is an optically thick layer of clouds present on the dayside hemisphere of the planet. Their results indicate that sodium absorption is suppressing the scattered light beyond ∼450 nm, before concluding that the best fitting model for this data is an atmosphere that would appear to be a deep blue color at visible wavelengths.
+
+The team began their investigation by gathering data with Hubble’s Space Telescope Imaging Spectrograph, gathering a total of 102 spectra over the course of 237 minutes. They then went about analyzing these raw lightcurves by first noting several systematic errors regarding the motion and thermal emissions of the Hubble telescope. To correct for this, the researchers fit a Gaussian model to the data they had gathered as well as a model of the covariance amplitude to better account for the auxiliary variables presented by Hubble. With the data analyzed, the team was able to draw conclusions regarding the albedo of HD 189733b. They describe how the data suggests that measured albedo in the wavelength range 290– 450 nm (Ag = 0.40 ± 0.12) is significantly higher than it is in the wavelength range 450–570 nm (Ag < 0.12). This stands in contrast with earlier models which suggest that the flux drop in the 290–450 nm channel would only be ∼ 10% greater than the flux drop in the 450– 570 nm channel, something their evidence does not support. The main conclusion they draw is that the albedo of the exoplanet decreases across the visible wavelength range, with their measurements falling ~2σ lower than these values. They then go on to list several cases which may cause such a phenomenon, however they note that the most likely cause pertaining to the paper regards the abundance of sodium in the planet's atmosphere. They conclude the paper with an understanding that the model which best fits their data is of a planet where sodium scatters light beyond ∼450 nm, causing it to appear a deep blue in the visible light spectrum. 
+
+
+Key Points: Retrievals on NIRCam transmission and emission spectra of HD 189733b with PLATON 6, a GPU code for the JWST era 
+
+This paper is a follow-up investigation regarding 2.4–5.0 µm JWST/NIRCam emission spectrum of HD 189733b. The researchers present data regarding emission spectra which seems to indicate traces of  H2O, CO2, CO, and H2S in the planet’s atmosphere, finding that detections of methane appear to deplete around the terminator of this world. This seems to indicate a dayside thermal inversion at millibar pressures, a conclusion which stands in contrast to earlier analyses. They did this by gathering data assuming a power-law haze and equilibrium chemistry with methane depletion and compared it to another dataset gathered regarding a clear atmosphere and equilibrium chemistry without methane depletion. The team also presents an updated form of the PLATON software, PLATON 6, which they claim is up to 10x faster than the older version. With this, they were able to better analyze volume mixing ratio and centered-log ratio priors, emission from planetary surfaces of different compositions, and opacities at improved resolution. 
+
+Much of the paper is spent discussing how the data gathered of HD 189733b by the James Webb Space Telescope compares to data from earlier studies. Most notable is the comparison to Spitzer data from the years prior to this study, using the weighted average of the JWST spectroscopic transit/eclipse depths to derive an IRAC-equivalent broadband depth. While much of the observations of HD 189733b by Spitzer are substantiated by the work done by the team with JWST, they do note that certain aspects of the Spitzer data regarding other exoplanets are inconsistent with similar studies done by JWST of these same worlds. This and the many other comparisons made throughout the paper are made to give context to the state of the data regarding HD 189733b. The authors note throughout the paper that this object is one of the most studied exoplanets currently known to science, and thus comparing data and re-analyzing certain observations may help to shed even more light onto this world. The team’s primary conclusions revolve evidence of H2O, CO2, CO, and H2S in observations of the planet during transit and at eclipse, however they find no evidence of CH4. From the data analysis conducted, they determined that methane is depleted on the terminator from equilibrium abundances. They also conclude that there is tentative evidence of a millibar thermal inversion on the dayside within 1.8σ of certainty. They compare this to conclusions drawn by another study which used a different system for conducting 1D radiative-convective-photochemical equilibrium grid retrieval, wherein they coupled two programs together: the Sc-CHIMERA RCE solver and the VULCAN photochemical kinetics solver. These results, as they say, are consistent with their own, however they note that they assumed a different parameterization of the cloud structure of this world. They also compare their findings to another paper which used CARMENES transmission spectra to derive a water mixing ratio, however they note that these findings are only consistent with data regarding sub-solar metallicity. In all, this investigation sheds some light onto the chemical make-up of  HD 189733b’s atmosphere, providing evidence towards a depletion of methane near its terminator, and illuminates the potential of a millibar thermal inversion on the dayside of this world. 
+
+-Taking a short break, 23:49:12 EDT; back from break, Oct 12 01:21:22 EDT 2026 
+
+Problem Three)
+
+-Did a general Git push 
+-Wrote some code which uses Pandas to pull the data from the .csv file
+-Attibuting the two columns of the data to two variables 'time' and 'flux' 
+-Built a graph which plots the data from teh .csv file 
+
+-Moving on to part b, I will be writting a support function for this assignment. I'm not sure if this is something I should do, but I would like to have it for later just in case. It might pop back up for the end of semester project
+-Building a function called 'box_window_function'
+-I built this in a support function, but my computer didn't want to take it as an import, so I'll just include it in 'hw7_jmschroeder.py' and separate them later
+-The curve is giving me strife. I got it as close as possible to the data but the lower bounds arent exactly aligned properly. I wrote a docstring saying why I dont believe the fit
+
+-Did another GitHub push
+
+*****OUT: Mon Oct 12 03:21:10 EDT 2026
+
+*****IN: Mon Oct 12 10:34:45 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Resumming HW7
+-Still not too confident with the fit but the instructions do suggest that I should be skeptical of it so this should be fine
+-Answered parts bii and biii in the form of a docstring
+-Graph is already made, again not the greatest but not terrible
+
+Problem Four)
+
+-Wrote some code which solves for the error in the planetary radius
+-Saving this as a .py file and moving on to Stokes testing
+-Will do another GitHub Commit
+
+*****OUT: Mon Oct 12 11:01:02 EDT 2026
+
+*****IN: Mon Oct 12 14:41:25 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Made it to class, firing up everything
+-We're going over the remainder of the file we started on Friday
+-Working in 'Coding_analysis_classroom.ipynb'
+-Talking about working with contours plots 
+-.meshgrid takes to matrices of xx and yy to build a mech
+-for example, say you have an x matrix as a single list, it will give an x element to every position in the matrix
+-This is not the same as a transpose since these could be differently sized arrays
+-contourf creates contours in for an x, y, and z dimesion; if you dont use this, then your contour will have gaps
+-there is an example in here that shows how to make a contour plot with labels
+-cmap works here too 
+-You can make acontour plot using two different functions as well, evaluating them as one function and plotting it to the same graph
+-Talking about using colors in your graphs that make it readable to people with normal vision and color blindness
+-Talking about 3D plotting, the most common way being to use the following import:
+>>> from mpl_toolkits.mplot3d import Axes3D
+-Creating a figure and then adding an axis to it; there are ways to make more complex figures, generally this is just the easiest way to go about it
+
+-Moving on, a rubric has been posted for HW7
+-A solution has not been posted yet but will be made; please look over this as well as the solution to HW6
+-In this class and context, the word 'apparent' implies the angle at which it is observed
+-Went over the homework, the solutions to which I have downloaded however these are incomplete. Will be looking back through this later
+
+-Shifting gears, working in 'Combining_frames_and_Flat_fields_classroom.ipynb'
+-Howell chapters 3 and 4
+-Back to analyzing data, looking at Signal to Noise Ratios from CCDs
+-Quantum Efficiency is the percentage of photons that actually get turned into photo-electrons
+-Talking about how bias is useful for measuring the zero-noise level of a CCD
+
+*****OUT: Mon Oct 12 16:20:19 EDT 2026
+
+*****IN: Wed Oct 14 14:25:10 EDT 2026
+
+Opened TextEdit, stated this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Waiting for class to start
+-I believe we are going to continue working in 'Combining_frames_and_Flat_fields_classroom.ipynb', though I am not entirely sure
+-Last class I volunteered to share someone's homework and I'm glad I did to get it out of the way
+
+-Quantum efficiency differences (QE, which is the fraction of photons that actually get detected); QE differences are how we correct for these
+-You would rather have efficient pixels than pixels that you have to detect 
+-Dark current, recall, is a type of background noise which is most often caused by the vibrations of the material in the chip sometimes dislodging an electron (attoamps)
+-Bias voltage is here too
+-Basically you have to remove all of these from the data by subtracting them from the image 
+>>> C = (R-B-D)/F
+>>> C = corrected image, R = raw image, B = bias image, D = dark image, F = flat field
+
+-Bias
+-Biasing the current to flow into the amplifier; a typical bias level is ~400ADU
+-Typically these bias voltages don't vary in time, though it is possible (especially for a sensitive instrument)
+-Taking an average is great for reducing noise in images; it reduces it by the square root of the number of images you have
+-A histogram of a bias frame gives you something like a Gaussian 
+-site-ccd.pdf is in the week6 files, great for learning about how these CCDs actually work
+-We can fit a Gaussian to a histogram of the bias values; you could also fit a parabola to the peak of this histogram, though this may not be as accurate
+-You need dark frames for every exposure length you use
+
+-Flat fields
+-We call it flattening because when you divide out your QE from an image, the image becomes smoother
+-Sky flats are great, mostly in the infrared; it useful to have a high light level and a low light level from your lamp; ideally you want more sky flats than observations, which makes these kind of impractical
+-Flat patterns in a phone camera are unique; this is both good and bad
+
+-Median Combination
+
+-Doing an in-class assignment where we have to read fits data and plot a histogram; I got the data just fine and the histogram plotted, now I'm trying to fit a guassian to it's peak
+-I got close, I just need to clip the data to a specific region of the data
+
+*****OUT: Wed Oct 14 16:22:34 EDT 2026
+
+*****IN: Fri Oct 16 14:33:32 EDT 2026
+
+Opened TextEdit, started this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Edited the string used when opening the log fixing a typo; "stating" -> "starting"
+-Made it to class and loaded everything; not entirely sure yet what we'll be discussing today, however I'm pretty sure we're going to be continuing in 'Combining_frames_and_Flat_fields_classroom.ipynb', picking up where we left off with the flats data example
+-Write clean when you do your code; do not assume that you can clean it up later otherwise you will make mistakes
+-When working mith math, typically you want space around an operation, however you want to make sure that the operations you're using are correct to what you're actually doing; ie 2-2 is fine, but consider your spacing and what is actually being said; is this really 2 - 2 or is it 2 + -2
+-Generally, assign your values to variables because these will be easier to change
+-Going over the example we began last class; I pulled the solution up just to see how its supposed to be done; it seems fairly intuitive however its reliant on a bunch of functions that I have to look into
+-argmax is good for finding the maximum value of the array
+
+-For HW8, DO NOT INCLUDE THE DATA FILE
+-Shifting gears, moving into Practicum 5
+>>> from hw6_jmschroeder import * 
+-This puts the file into the file your in; its for running chucks of code in the current session
+-Also check to see if you have any support functions you would like to import
+
+-Opened a new .PDF from the Week 8 folder, 'normalized_median_combination.pdf' which discusses median combination
+-Talked about how we normalize frames before we can median combine them (data formation model)
+-Subtracting you normalized frames from your subtracted normalized, median-combined sky frame gives you sky-subtracted frames with stars normalized to original sky in each frame
+-This is a fairly common method when it comes to near-infrared imaging
+-The important thing here is to have a good understanding of what exactly is in your data; what are you looking at? where are you looking at it from? stuff like that; what exactly is happening to your light
+-Make a list of things that you have account for up to the level of experimental design because it all matters and can get complicated; this is the "dirt under your fingernails" part of the class
+-Whats necessary, what can be avoided, etc; every single time you touch the image it adds noise so make sure to propegate your errors appropriately
+
+*****OUT: Fri Oct 16 16:21:02 EDT 2026
+
+*****IN: Sat Oct 17 17:58:21 EDT 2026
+
+Opened TextEdit, started this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Beginning Practicum 5
+-Made a new folder called 'practicum5' by running the following in a terminal:
+>>> cd ~/ast4762/homework
+>>> mkdir practicum5
+
+-This folder will later be turned into a tar.gz folder by running the following command in a terminal:
+>>> tar -czvf p5_jmschroeder.tar.gz practicum5/
+
+-Started building a function called 'normmedcomb()' per the specifications of the Practicum 5 document
+
+*****OUT: Sat Oct 17 19:14:43 EDT 2026
+
+*****IN: Sun Oct 18 15:18:10 EDT 2026
+
+Opened TextEdit, started this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+Problem One) 
+-I fixed 'hw7_jmschroeder.ipynb' and imported it to this Practicum 5 file by running:
+>>> from hw7_jmschroeder import *
+
+-Continuing Practicum 5
+-I built the support function normmedcomb() in a separate .ipynb called 'p5_jmschroeder_support_functions'
+-I will call it to this Practicum 5 file by running:
+>>> from p5_jmschroeder_support_functions import normmedcomb
+
+-Finished Practicum 5 and saved it by running: 
+>>> tar -czvf p5_jmschroeder.tar.gz practicum5/
+
+*****OUT: Sun Oct 18 18:11:29 EDT 2026
+
+*****IN: Sun Oct 18 20:12:45 EDT 2026
+
+Opened TextEdit, started this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Starting HW8; redownloaded the 'hw6_data' file from the HW6 folder in CANVAS
+
+Problem One)
+-Made a folder fo HW6 called 'hw8_jmschroeder' by running the following commands in a terminal:
+	>>> cd ~/ast4762/homework
+	>>> mkdir hw8_jmschroeder
+-Loaded Jupyter Notebook
+-Testing GitHub with a pre-work push; push successful
+
+*****OUT: Sun Oct 18 21:54:42 EDT 2026
+
+*****IN: Mon Oct 19 07:27:13 EDT 2026
+
+Opened TextEdit, started this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Continuing HW8
+
+Problem Two)
+-Renamed 'p5_jmschroeder_support_functions.py' to 'hw8_jmschroeder_support_functions.py'
+-Wrote a function called skycormednorm() within the support functions file; this function implements sky subtraction using a normalized sky frame.
+-Used this funciton to de-normalize the sky, subtract it from the object frame, and returns the resulting sky-subtracted frame
+
+*****OUT: Mon Oct 19 08:31:23 EDT 2026
+
+*****IN: Mon Oct 19 11:01:54 EDT 2026
+
+Opened TextEdit, started this log, saved as:
+/home/jmschroeder/DRIVE (D:)/UCF/2026/Fall/Astronomical Data Analysis - AST 4762/ast4762/0-ast4762-jmschroeder.log
+Name: Jay Schroeder
+Username: jmschroeder
+
+-Made it to the library, going to do a GitPush and run the file in Stokes.
+-Finished HW8 and saved it by running: 
+>>> tar -czvf hw8_jmschroeder.tar.gz hw8_jmschroeder/
+
+*****OUT: Mon Oct 19 11:17:34 EDT 2026
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
